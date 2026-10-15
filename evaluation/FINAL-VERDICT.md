@@ -25,3 +25,7 @@ No numeric threshold was found through 3,000 documents. Page count alone did not
 Keep the repository as an engineering/reproducibility record for now. Do not promote it as a proven Nift performance reference or turnkey starter. Whether to retain, promote, archive or delete it is the user's later decision; nothing was archived/deleted as part of this task. No Labs report, public site deployment, announcement or outreach occurred. Agora and other accepted experiments remain untouched and are not reinterpreted by this greenfield result.
 
 See BENCHMARKS.md for observations and qualifications, DX-REVIEW.md for scores, original independent review snapshots and their appended final dispositions, and NIFT-IMPROVEMENTS.md for scoped future work.
+
+## Representative 3,000-document observations
+
+Fresh application state: hybrid 25.20s / 389.0 MiB sampled tree peak; optimized control 23.12s / 402.7 MiB. Warm full publication: 8.59s / 271.6 MiB versus 7.30s / 271.7 MiB. One docs edit: 1.76s versus 1.12s. Unchanged: 0.859s versus 0.168s. These are single serialized observations, not medians; individual-process RSS and all scenarios are retained in BENCHMARKS.md. The few-percent fresh memory difference is not a reliable Nift-specific win.

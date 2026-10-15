@@ -72,4 +72,6 @@ Original evidence: `evaluation/BASELINE-62-PAGES.md` and `baseline-62/evaluation
 
 At 3,000 documents, fresh builds were 25.20s hybrid versus 23.12s control; warm full publication 8.59s versus 7.30s; a docs edit 1.76s versus 1.12s. These are single observations, not medians. See the report for RSS, all scales, workload definitions and limitations.
 
-Commits/pushes to this repository are authorized. No Labs page, public deployment, social announcement or maintainer outreach is authorized. Nift core, Agora and prior experiments remain untouched. See the final report before drawing conclusions from a checkpoint.
+Commits/pushes to this repository are authorized. Clean GitHub checkout proof is recorded in [clean-clone-phase2.json](evaluation/clean-clone-phase2.json): locked install, independent 3,000-document builds, typecheck and publication parity all pass.
+
+No Labs page, public deployment, social announcement or maintainer outreach is authorized. Nift core, Agora and prior experiments remain untouched. See the final report before drawing conclusions from a checkpoint.

@@ -1,0 +1,70 @@
+{
+  "remote": "https://github.com/nift-experiments/nift-tanstack",
+  "builtCommit": "135d9f426a04e5d6b8f3c4461bc88e5a8741175f",
+  "dependencyInstall": "bun install --frozen-lockfile; 260 packages; succeeded",
+  "initialAttempt": "Temporary-filesystem inode quota interrupted installation; disposable failed clone removed, proof repeated on main filesystem. No maintained source/evidence removed.",
+  "initialState": "No model artifacts or active corpus manifest in clean clone. Each default model build independently compiled all 3000 documents and built its app. Installed dependencies shared only through normal package-manager cache.",
+  "builds": {
+    "hybrid": {
+      "model": "hybrid",
+      "scale": 3000,
+      "fresh": false,
+      "all": false,
+      "native": false,
+      "compiled": 3000,
+      "appRan": true,
+      "searchRan": true,
+      "rendered": 3002,
+      "times": {
+        "plan": 0.457719062,
+        "compile": 13.11095246,
+        "nift": 0.6976948659999999,
+        "app": 1.7082010260000007,
+        "search": 0.7502573009999997,
+        "render": 6.2350353789999975
+      },
+      "totalSeconds": 23.147543117
+    },
+    "control": {
+      "model": "control",
+      "scale": 3000,
+      "fresh": false,
+      "all": false,
+      "native": false,
+      "compiled": 3000,
+      "appRan": true,
+      "searchRan": true,
+      "rendered": 3002,
+      "times": {
+        "plan": 0.07236699299999999,
+        "compile": 13.892487040999999,
+        "nift": 1.668999999310472e-06,
+        "app": 1.7034069179999987,
+        "search": 0.8023523649999988,
+        "render": 6.414894069999998
+      },
+      "totalSeconds": 23.127875224
+    }
+  },
+  "check": "bun run check passed",
+  "crossModelParity": "bun tools/verify-publication.ts passed for all 3000 docs, search, assets, SSR main and internal links",
+  "againstDevelopmentCheckout": {
+    "documents": 3000,
+    "sourceBytesEqual": true,
+    "models": {
+      "hybrid": {
+        "payloadObjectsEqual": true,
+        "staticMainPagesEqual": 3002,
+        "assetFilesByteEqual": 14,
+        "searchBytesEqual": true
+      },
+      "control": {
+        "payloadObjectsEqual": true,
+        "staticMainPagesEqual": 3002,
+        "assetFilesByteEqual": 14,
+        "searchBytesEqual": true
+      }
+    }
+  },
+  "scope": "Compares payload objects, asset/search bytes and SSR main content. Whole HTML serialization timestamps and server bundle bytes are not claimed identical. Build times here are functional proof, not replacements for serialized benchmark observations."
+}

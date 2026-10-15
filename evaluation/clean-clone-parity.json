@@ -1,0 +1,18 @@
+{
+  "documents": 3000,
+  "sourceBytesEqual": true,
+  "models": {
+    "hybrid": {
+      "payloadObjectsEqual": true,
+      "staticMainPagesEqual": 3002,
+      "assetFilesByteEqual": 14,
+      "searchBytesEqual": true
+    },
+    "control": {
+      "payloadObjectsEqual": true,
+      "staticMainPagesEqual": 3002,
+      "assetFilesByteEqual": 14,
+      "searchBytesEqual": true
+    }
+  }
+}
