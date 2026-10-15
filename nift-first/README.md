@@ -43,3 +43,5 @@ The workspace is client-rendered and requires JavaScript; reference Start app ro
 Production does not require Bun/Start as an application server: `public` is a conventional static directory, including fixture APIs. The checked-in Bun adapter is a localhost preview. Do not modify Nift core, publish to Labs, deploy or contact maintainers as part of this experiment.
 
 Run `bun run test` with dev watchers stopped for preserved-mtime edits, literal Nift-like code, missing-asset failure/retry and missing-output recovery. Compiler intermediates carry their actual input hash, so a failed publication followed by restoring the source cannot reuse the wrong body.
+
+The independent GitHub clean-checkout proof in `../evaluation/nift-first/clean-clone.json` reproduced every publication file byte-for-byte. Run `python3 tools/tree-hash.py public` to obtain the static inventory digest.

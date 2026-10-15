@@ -1,0 +1,36 @@
+{
+  "remote": "https://github.com/nift-experiments/nift-tanstack",
+  "builtCommit": "c97df7ed485b6c0149ab0b0efd6d18545b3eb092",
+  "rootLockedInstall": "passed",
+  "isolatedLockedInstall": "passed",
+  "initialState": "No generated corpus manifest, model cache, frontend output or HTML in clean checkout",
+  "defaultBuild": {
+    "model": "nift-first",
+    "scale": 3000,
+    "mdx": 979,
+    "fresh": false,
+    "all": false,
+    "compiled": 3000,
+    "appRan": true,
+    "searchRan": true,
+    "rendered": 3089,
+    "pages": 3089,
+    "times": {
+      "plan": 0.27081525999999995,
+      "compile": 10.669950692,
+      "app": 0.8365489999999991,
+      "search": 0.845020618999999,
+      "prepare": 0.7828696619999992,
+      "nift": 0.8547356409999993
+    },
+    "totalSeconds": 14.262504683000001
+  },
+  "typecheck": "passed",
+  "sourceHashesMatchAllDocuments": 3000,
+  "allPublicationFilesByteIdentical": {
+    "files": 3102,
+    "bytes": 20408387,
+    "inventorySha256": "7d99f532941b4d94cc140feef676fb21a3715ec20b687fdafd33d2d3a17c7cb4"
+  },
+  "qualification": "Build duration is a reproducibility observation, not a replacement for serialized measurements."
+}
