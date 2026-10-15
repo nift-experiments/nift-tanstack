@@ -7,7 +7,7 @@ export function contentReload(model: string): Plugin {
   return {
     name: "content-payload-reload",
     closeBundle: () => dispose(),
-    configureServer(server) {
+    async configureServer(server) {
       server.middlewares.use(async (req, res, next) => {
         if (req.url?.split("?")[0] !== "/search-index.json") return next();
         try {
@@ -72,11 +72,12 @@ export function contentReload(model: string): Plugin {
         }, 120);
       };
       server.watcher.add([
-        "../corpus",
-        "../tools/compiler-worker.ts",
-        "../tools/search-indexer.ts",
+        resolve("corpus"),
+        resolve("tools/compiler-worker.ts"),
+        resolve("tools/search-indexer.ts"),
       ]);
       server.watcher.on("all", listener);
+      dirty=true;task=rebuild();await task;task=undefined;
       dispose = async () => {
         closed = true;
         if (pending) clearTimeout(pending);

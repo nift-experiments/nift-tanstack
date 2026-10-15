@@ -19,3 +19,5 @@ corpus/active.json
 corpus/generation.json
 .nift/*
 !.nift/config.json
+
+__pycache__/
