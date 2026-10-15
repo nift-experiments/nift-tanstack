@@ -1,15 +1,24 @@
 import { useState, type ReactNode } from "react";
+import topologyUrl from "./assets/service-topology.svg?url";
 import { Link } from "@tanstack/react-router";
 export function Callout({
   title,
   children,
+  tone = "note",
 }: {
   title: string;
+  tone?: "note" | "warning" | "critical";
   children: ReactNode;
 }) {
   return (
-    <aside className="callout">
-      <strong>{title}</strong>
+    <aside
+      className={"callout callout-" + tone}
+      aria-label={tone + ": " + title}
+    >
+      <strong>
+        {tone === "note" ? "Note" : tone === "warning" ? "Warning" : "Critical"}
+        : {title}
+      </strong>
       <div>{children}</div>
     </aside>
   );
@@ -83,4 +92,25 @@ export function DocLink({
     </a>
   );
 }
-export const docComponents = { Callout, Tabs, BudgetCalculator, a: DocLink };
+export function ServiceTopology() {
+  return (
+    <figure>
+      <img
+        src={topologyUrl}
+        width="640"
+        height="120"
+        alt="Gateway sends requests to identity and payments services."
+      />
+      <figcaption>
+        Example service dependencies for a recovery drill.
+      </figcaption>
+    </figure>
+  );
+}
+export const docComponents = {
+  Callout,
+  Tabs,
+  BudgetCalculator,
+  ServiceTopology,
+  a: DocLink,
+};

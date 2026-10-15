@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "@tanstack/react-router";
 import MiniSearch from "minisearch";
 import type { Catalog } from "./content-types";
+import site from "./site.json";
 export function Knowledge({ catalog }: { catalog: Catalog }) {
   const [query, setQuery] = useState(""),
     [index, setIndex] = useState<MiniSearch | null>(null),
@@ -65,7 +66,7 @@ export function Knowledge({ catalog }: { catalog: Catalog }) {
       <div className="cards">
         {catalog.sections.map((s) => (
           <section key={s.slug}>
-            <h2>{s.title}</h2>
+            <h2>{site.sections.find((section) => section.slug === s.slug)?.title ?? s.title}</h2>
             <p>{s.count} guides</p>
             <Link to={"/docs/" + s.first}>Explore →</Link>
           </section>

@@ -159,7 +159,7 @@ await writeFile(
       original: 62,
       generated: active.filter((d) => d.file.startsWith("corpus/generated/"))
         .length,
-      additions: additions.length,
+      additions: active.filter(d=>d.file.startsWith("corpus/authored/")).length,
       mdx: active.filter((d) => d.format === "mdx").length,
       services: services.length,
       apiVersions: 4,

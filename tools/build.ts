@@ -5,6 +5,7 @@ import {
   rm,
   copyFile,
   stat,
+  readdir,
 } from "node:fs/promises";
 import { resolve } from "node:path";
 
@@ -28,8 +29,9 @@ if (fresh) {
   await rm(cache, { recursive: true, force: true });
   await rm(dist, { recursive: true, force: true });
   if (model === "hybrid")
-    for (const path of [".nift/.cache", ".nift/identity-stage1"])
-      await rm(path, { recursive: true, force: true });
+    for (const entry of await readdir(".nift"))
+      if (!["config.json", "tracked.json"].includes(entry))
+        await rm(".nift/" + entry, { recursive: true, force: true });
 }
 await mkdir(cache, { recursive: true });
 let docs: DocRecord[] = JSON.parse(
@@ -129,7 +131,12 @@ await Promise.all(
 );
 times.compile = (performance.now() - compileStart) / 1000;
 const niftStart = performance.now();
-if (model === "hybrid"){const output=await run(["nift","build",...(all?["--all"]:[])],{quiet:true});console.log(output.trim().split("\n").slice(-3).join("\n"))}
+if (model === "hybrid") {
+  const output = await run(["nift", "build", ...(all ? ["--all"] : [])], {
+    quiet: true,
+  });
+  console.log(output.trim().split("\n").slice(-3).join("\n"));
+}
 times.nift = (performance.now() - niftStart) / 1000;
 for (const slug of Object.keys(oldKeys))
   if (!contentKeys[slug]) {
@@ -200,7 +207,7 @@ if (appRan) {
   await run(["bun", "x", "vite", "build", "--config", "app/vite.config.ts"], {
     env: {
       ...process.env,
-      NODE_ENV:"production",
+      NODE_ENV: "production",
       PULSE_MODEL: model,
       PULSE_NATIVE: native ? "1" : "0",
       PULSE_DATA_ROOT: resolve(dist, "content"),

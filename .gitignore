@@ -17,3 +17,5 @@ hybrid/content/
 .nift/.cache/
 corpus/active.json
 corpus/generation.json
+.nift/*
+!.nift/config.json

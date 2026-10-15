@@ -1,0 +1,30 @@
+[
+  {
+    "model": "hybrid",
+    "tab": "Stop new work, restore the last healthy release and verify dependencies.",
+    "calculator": "251 requests/min · 15060 requests/hour",
+    "noteAcrossDocsToApp": "Router continuity proof"
+  },
+  {
+    "model": "control",
+    "tab": "Stop new work, restore the last healthy release and verify dependencies.",
+    "calculator": "251 requests/min · 15060 requests/hour",
+    "noteAcrossDocsToApp": "Router continuity proof"
+  },
+  {
+    "model": "hybrid",
+    "productionBudget": "1 of 5 services exceed the 1000-second budget.",
+    "lowBudget": "5 of 5 services exceed the 100-second budget.",
+    "noteAcrossAppToDocs": "Router continuity proof",
+    "searchResult": true,
+    "warnings": []
+  },
+  {
+    "model": "control",
+    "productionBudget": "1 of 5 services exceed the 1000-second budget.",
+    "lowBudget": "5 of 5 services exceed the 100-second budget.",
+    "noteAcrossAppToDocs": "Router continuity proof",
+    "searchResult": true,
+    "warnings": []
+  }
+]

@@ -1,0 +1,28 @@
+# Capacity drills before a release
+
+Compare services in the [capacity workspace](/app/capacity) before scheduling a recovery drill. The fixture view totals deployment execution seconds; it is a planning proxy, not measured infrastructure utilization.
+
+<Callout title="Set a review budget" tone="warning">
+Choose an execution-time budget for the selected environment. A service over budget needs review before additional deployment work is scheduled; the result does not prove a production outage.
+</Callout>
+
+## Trace the dependency path
+
+<ServiceTopology />
+
+Test gateway recovery only after confirming that identity and payments can handle the expected request volume. Record the owner and stop condition for each dependency.
+
+## Estimate the request window
+
+Move the slider to translate a proposed request rate into an hourly drill volume. This calculator is independent of the execution-time budget in the capacity workspace.
+
+<BudgetCalculator initial={250} />
+
+<Tabs labels={["Prepare", "Recover"]} values={["Record the baseline, budget and rollback owner.", "Stop new work, restore the last healthy release and verify dependencies."]} />
+
+## Review the result
+
+1. Select production in the capacity workspace and compare total seconds, deployment count and average duration.
+2. Lower the budget until a service is flagged; check that the review count and headroom change.
+3. Record actual request errors and latency separately. Fixture deployment duration cannot establish traffic capacity.
+4. Follow the [recovery evidence checklist](/docs/reliability-advanced/recovery-evidence) before closing the drill.

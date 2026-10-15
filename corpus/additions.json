@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "slug": "reliability-advanced/capacity-drills",
+    "title": "Capacity drills before a release",
+    "section": "reliability-advanced",
+    "file": "corpus/authored/reliability-advanced/capacity-drills.mdx",
+    "format": "mdx",
+    "summary": "Compare execution budgets and rehearse dependency recovery with interactive examples."
+  },
+  {
+    "slug": "reliability-advanced/recovery-evidence",
+    "title": "Recovery evidence checklist",
+    "section": "reliability-advanced",
+    "file": "corpus/authored/reliability-advanced/recovery-evidence.md",
+    "format": "md",
+    "summary": "Capture repeatable evidence before closing a recovery drill."
+  }
+]

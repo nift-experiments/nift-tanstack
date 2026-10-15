@@ -1,0 +1,10 @@
+{
+  "nift": "Nift v4.12.0",
+  "binarySha256": "acb99e9e03a8de1a26a677d773a160d530743ed1c4bbf90f456644cfe4c2110f",
+  "sourceCheckoutCommit": "c14d06835bca515a5281e41da0e40219c2d60ef0",
+  "qualification": "Binary checksum and read-only source checkout identity are separate provenance; no core changes made.",
+  "node": "v22.22.1",
+  "bun": "1.4.3",
+  "platform": "Linux-7.0.0-29-generic-x86_64-with-glibc2.43",
+  "sampling": "2ms target, all-thread kernel descendants, GNU time separate individual process max; observer excluded"
+}

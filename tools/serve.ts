@@ -2,7 +2,7 @@ import { resolve, sep } from "node:path";
 const model = process.argv[2] || "hybrid";
 if (!["hybrid", "control"].includes(model)) throw Error("Invalid model");
 const root = resolve(model, "dist");
-process.env.NODE_ENV="production";
+process.env.NODE_ENV = "production";
 process.env.PULSE_DATA_ROOT = resolve(root, "content");
 const app = (await import(resolve(root, "server/server.js"))).default;
 const port = Number(process.env.PORT || (model === "hybrid" ? 4212 : 4213));

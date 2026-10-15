@@ -29,6 +29,10 @@
     {
       "slug": "reliability",
       "title": "Reliability"
+    },
+    {
+      "slug": "reliability-advanced",
+      "title": "Advanced reliability"
     }
   ],
   "nav": [
@@ -47,6 +51,10 @@
     {
       "label": "Services",
       "href": "/app/services"
+    },
+    {
+      "label": "Capacity",
+      "href": "/app/capacity"
     },
     {
       "label": "Settings",

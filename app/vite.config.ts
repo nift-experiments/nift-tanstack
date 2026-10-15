@@ -12,7 +12,7 @@ const records = JSON.parse(
 );
 export default defineConfig({
   root: resolve(root, "app"),
-  build: { outDir: resolve(root, model, "dist") },
+  build: { emptyOutDir: true, outDir: resolve(root, model, "dist") },
   plugins: [
     contentReload(model),
     tanstackStart({
