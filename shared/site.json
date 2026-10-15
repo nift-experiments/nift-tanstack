@@ -1,0 +1,56 @@
+{
+  "name": "PulseOps",
+  "tagline": "Operate with context.",
+  "sections": [
+    {
+      "slug": "start",
+      "title": "Getting started"
+    },
+    {
+      "slug": "delivery",
+      "title": "Delivery"
+    },
+    {
+      "slug": "incidents",
+      "title": "Incident response"
+    },
+    {
+      "slug": "observability",
+      "title": "Observability"
+    },
+    {
+      "slug": "api",
+      "title": "API reference"
+    },
+    {
+      "slug": "security",
+      "title": "Security & governance"
+    },
+    {
+      "slug": "reliability",
+      "title": "Reliability"
+    }
+  ],
+  "nav": [
+    {
+      "label": "Overview",
+      "href": "/app/"
+    },
+    {
+      "label": "Deployments",
+      "href": "/app/deployments"
+    },
+    {
+      "label": "Incidents",
+      "href": "/app/incidents"
+    },
+    {
+      "label": "Services",
+      "href": "/app/services"
+    },
+    {
+      "label": "Settings",
+      "href": "/app/settings"
+    }
+  ]
+}

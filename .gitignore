@@ -9,3 +9,11 @@ node_modules/
 **/.nift/.lock
 corpus/generated/
 evaluation/work/
+hybrid/content/
+.nift/tracked.json
+.nift/identity-*/
+.nift/public/
+.nift/.lock
+.nift/.cache/
+corpus/active.json
+corpus/generation.json

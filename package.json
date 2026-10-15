@@ -1,0 +1,41 @@
+{
+  "name": "nift-tanstack-scale-experiment",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "corpus": "bun tools/generate.ts",
+    "build:hybrid": "bun tools/build.ts hybrid",
+    "build:control": "bun tools/build.ts control",
+    "build:native": "bun tools/build.ts control --native",
+    "dev:hybrid": "PULSE_MODEL=hybrid bun tools/dev.ts",
+    "dev:control": "PULSE_MODEL=control bun tools/dev.ts",
+    "serve:hybrid": "bun tools/serve.ts hybrid",
+    "serve:control": "bun tools/serve.ts control",
+    "check": "tsc --noEmit",
+    "test": "bun test tools/*.test.ts"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "3.1.1",
+    "@tanstack/react-query": "5.104.2",
+    "@tanstack/react-router": "1.170.44",
+    "@tanstack/react-router-ssr-query": "1.167.3",
+    "@tanstack/react-start": "1.169.2",
+    "marked": "18.1.1",
+    "minisearch": "7.2.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "rehype-highlight": "7.0.2",
+    "rehype-slug": "6.0.0",
+    "remark-gfm": "4.0.1"
+  },
+  "devDependencies": {
+    "@types/bun": "1.4.3",
+    "@types/node": "24.12.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.1.2",
+    "prettier": "3.9.10",
+    "typescript": "7.0.2",
+    "vite": "8.3.4"
+  }
+}

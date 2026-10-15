@@ -1,0 +1,498 @@
+[
+  {
+    "slug": "start/workspace-setup",
+    "section": "start",
+    "title": "Workspace setup",
+    "summary": "Workspace setup guidance for reliable service operations.",
+    "file": "docs/start/workspace-setup.md",
+    "page": "docs/start/workspace-setup/index"
+  },
+  {
+    "slug": "start/first-deployment",
+    "section": "start",
+    "title": "First deployment",
+    "summary": "First deployment guidance for reliable service operations.",
+    "file": "docs/start/first-deployment.md",
+    "page": "docs/start/first-deployment/index"
+  },
+  {
+    "slug": "start/environments",
+    "section": "start",
+    "title": "Environments",
+    "summary": "Environments guidance for reliable service operations.",
+    "file": "docs/start/environments.md",
+    "page": "docs/start/environments/index"
+  },
+  {
+    "slug": "start/team-onboarding",
+    "section": "start",
+    "title": "Team onboarding",
+    "summary": "Team onboarding guidance for reliable service operations.",
+    "file": "docs/start/team-onboarding.md",
+    "page": "docs/start/team-onboarding/index"
+  },
+  {
+    "slug": "start/cli-installation",
+    "section": "start",
+    "title": "CLI installation",
+    "summary": "CLI installation guidance for reliable service operations.",
+    "file": "docs/start/cli-installation.md",
+    "page": "docs/start/cli-installation/index"
+  },
+  {
+    "slug": "start/configuration",
+    "section": "start",
+    "title": "Configuration",
+    "summary": "Configuration guidance for reliable service operations.",
+    "file": "docs/start/configuration.md",
+    "page": "docs/start/configuration/index"
+  },
+  {
+    "slug": "start/project-structure",
+    "section": "start",
+    "title": "Project structure",
+    "summary": "Project structure guidance for reliable service operations.",
+    "file": "docs/start/project-structure.md",
+    "page": "docs/start/project-structure/index"
+  },
+  {
+    "slug": "start/local-development",
+    "section": "start",
+    "title": "Local development",
+    "summary": "Local development guidance for reliable service operations.",
+    "file": "docs/start/local-development.md",
+    "page": "docs/start/local-development/index"
+  },
+  {
+    "slug": "start/release-checklist",
+    "section": "start",
+    "title": "Release checklist",
+    "summary": "Release checklist guidance for reliable service operations.",
+    "file": "docs/start/release-checklist.md",
+    "page": "docs/start/release-checklist/index"
+  },
+  {
+    "slug": "start/troubleshooting",
+    "section": "start",
+    "title": "Troubleshooting",
+    "summary": "Troubleshooting guidance for reliable service operations.",
+    "file": "docs/start/troubleshooting.md",
+    "page": "docs/start/troubleshooting/index"
+  },
+  {
+    "slug": "delivery/build-pipelines",
+    "section": "delivery",
+    "title": "Build pipelines",
+    "summary": "Build pipelines guidance for reliable service operations.",
+    "file": "docs/delivery/build-pipelines.md",
+    "page": "docs/delivery/build-pipelines/index"
+  },
+  {
+    "slug": "delivery/artifact-retention",
+    "section": "delivery",
+    "title": "Artifact retention",
+    "summary": "Artifact retention guidance for reliable service operations.",
+    "file": "docs/delivery/artifact-retention.md",
+    "page": "docs/delivery/artifact-retention/index"
+  },
+  {
+    "slug": "delivery/canary-releases",
+    "section": "delivery",
+    "title": "Canary releases",
+    "summary": "Canary releases guidance for reliable service operations.",
+    "file": "docs/delivery/canary-releases.md",
+    "page": "docs/delivery/canary-releases/index"
+  },
+  {
+    "slug": "delivery/rollback-strategy",
+    "section": "delivery",
+    "title": "Rollback strategy",
+    "summary": "Rollback strategy guidance for reliable service operations.",
+    "file": "docs/delivery/rollback-strategy.md",
+    "page": "docs/delivery/rollback-strategy/index"
+  },
+  {
+    "slug": "delivery/release-approvals",
+    "section": "delivery",
+    "title": "Release approvals",
+    "summary": "Release approvals guidance for reliable service operations.",
+    "file": "docs/delivery/release-approvals.md",
+    "page": "docs/delivery/release-approvals/index"
+  },
+  {
+    "slug": "delivery/service-dependencies",
+    "section": "delivery",
+    "title": "Service dependencies",
+    "summary": "Service dependencies guidance for reliable service operations.",
+    "file": "docs/delivery/service-dependencies.md",
+    "page": "docs/delivery/service-dependencies/index"
+  },
+  {
+    "slug": "delivery/deployment-windows",
+    "section": "delivery",
+    "title": "Deployment windows",
+    "summary": "Deployment windows guidance for reliable service operations.",
+    "file": "docs/delivery/deployment-windows.md",
+    "page": "docs/delivery/deployment-windows/index"
+  },
+  {
+    "slug": "delivery/feature-flags",
+    "section": "delivery",
+    "title": "Feature flags",
+    "summary": "Feature flags guidance for reliable service operations.",
+    "file": "docs/delivery/feature-flags.md",
+    "page": "docs/delivery/feature-flags/index"
+  },
+  {
+    "slug": "delivery/health-checks",
+    "section": "delivery",
+    "title": "Health checks",
+    "summary": "Health checks guidance for reliable service operations.",
+    "file": "docs/delivery/health-checks.md",
+    "page": "docs/delivery/health-checks/index"
+  },
+  {
+    "slug": "delivery/delivery-metrics",
+    "section": "delivery",
+    "title": "Delivery metrics",
+    "summary": "Delivery metrics guidance for reliable service operations.",
+    "file": "docs/delivery/delivery-metrics.md",
+    "page": "docs/delivery/delivery-metrics/index"
+  },
+  {
+    "slug": "incidents/declare-an-incident",
+    "section": "incidents",
+    "title": "Declare an incident",
+    "summary": "Declare an incident guidance for reliable service operations.",
+    "file": "docs/incidents/declare-an-incident.md",
+    "page": "docs/incidents/declare-an-incident/index"
+  },
+  {
+    "slug": "incidents/severity-policy",
+    "section": "incidents",
+    "title": "Severity policy",
+    "summary": "Severity policy guidance for reliable service operations.",
+    "file": "docs/incidents/severity-policy.md",
+    "page": "docs/incidents/severity-policy/index"
+  },
+  {
+    "slug": "incidents/on-call-handoff",
+    "section": "incidents",
+    "title": "On-call handoff",
+    "summary": "On-call handoff guidance for reliable service operations.",
+    "file": "docs/incidents/on-call-handoff.md",
+    "page": "docs/incidents/on-call-handoff/index"
+  },
+  {
+    "slug": "incidents/customer-communication",
+    "section": "incidents",
+    "title": "Customer communication",
+    "summary": "Customer communication guidance for reliable service operations.",
+    "file": "docs/incidents/customer-communication.md",
+    "page": "docs/incidents/customer-communication/index"
+  },
+  {
+    "slug": "incidents/mitigation-workflow",
+    "section": "incidents",
+    "title": "Mitigation workflow",
+    "summary": "Mitigation workflow guidance for reliable service operations.",
+    "file": "docs/incidents/mitigation-workflow.md",
+    "page": "docs/incidents/mitigation-workflow/index"
+  },
+  {
+    "slug": "incidents/timeline-capture",
+    "section": "incidents",
+    "title": "Timeline capture",
+    "summary": "Timeline capture guidance for reliable service operations.",
+    "file": "docs/incidents/timeline-capture.md",
+    "page": "docs/incidents/timeline-capture/index"
+  },
+  {
+    "slug": "incidents/runbook-execution",
+    "section": "incidents",
+    "title": "Runbook execution",
+    "summary": "Runbook execution guidance for reliable service operations.",
+    "file": "docs/incidents/runbook-execution.md",
+    "page": "docs/incidents/runbook-execution/index"
+  },
+  {
+    "slug": "incidents/postmortem-writing",
+    "section": "incidents",
+    "title": "Postmortem writing",
+    "summary": "Postmortem writing guidance for reliable service operations.",
+    "file": "docs/incidents/postmortem-writing.md",
+    "page": "docs/incidents/postmortem-writing/index"
+  },
+  {
+    "slug": "incidents/action-tracking",
+    "section": "incidents",
+    "title": "Action tracking",
+    "summary": "Action tracking guidance for reliable service operations.",
+    "file": "docs/incidents/action-tracking.md",
+    "page": "docs/incidents/action-tracking/index"
+  },
+  {
+    "slug": "incidents/incident-drills",
+    "section": "incidents",
+    "title": "Incident drills",
+    "summary": "Incident drills guidance for reliable service operations.",
+    "file": "docs/incidents/incident-drills.md",
+    "page": "docs/incidents/incident-drills/index"
+  },
+  {
+    "slug": "observability/service-objectives",
+    "section": "observability",
+    "title": "Service objectives",
+    "summary": "Service objectives guidance for reliable service operations.",
+    "file": "docs/observability/service-objectives.md",
+    "page": "docs/observability/service-objectives/index"
+  },
+  {
+    "slug": "observability/error-budgets",
+    "section": "observability",
+    "title": "Error budgets",
+    "summary": "Error budgets guidance for reliable service operations.",
+    "file": "docs/observability/error-budgets.md",
+    "page": "docs/observability/error-budgets/index"
+  },
+  {
+    "slug": "observability/latency-analysis",
+    "section": "observability",
+    "title": "Latency analysis",
+    "summary": "Latency analysis guidance for reliable service operations.",
+    "file": "docs/observability/latency-analysis.md",
+    "page": "docs/observability/latency-analysis/index"
+  },
+  {
+    "slug": "observability/log-correlation",
+    "section": "observability",
+    "title": "Log correlation",
+    "summary": "Log correlation guidance for reliable service operations.",
+    "file": "docs/observability/log-correlation.md",
+    "page": "docs/observability/log-correlation/index"
+  },
+  {
+    "slug": "observability/trace-sampling",
+    "section": "observability",
+    "title": "Trace sampling",
+    "summary": "Trace sampling guidance for reliable service operations.",
+    "file": "docs/observability/trace-sampling.md",
+    "page": "docs/observability/trace-sampling/index"
+  },
+  {
+    "slug": "observability/alert-routing",
+    "section": "observability",
+    "title": "Alert routing",
+    "summary": "Alert routing guidance for reliable service operations.",
+    "file": "docs/observability/alert-routing.md",
+    "page": "docs/observability/alert-routing/index"
+  },
+  {
+    "slug": "observability/dashboard-design",
+    "section": "observability",
+    "title": "Dashboard design",
+    "summary": "Dashboard design guidance for reliable service operations.",
+    "file": "docs/observability/dashboard-design.md",
+    "page": "docs/observability/dashboard-design/index"
+  },
+  {
+    "slug": "observability/metric-cardinality",
+    "section": "observability",
+    "title": "Metric cardinality",
+    "summary": "Metric cardinality guidance for reliable service operations.",
+    "file": "docs/observability/metric-cardinality.md",
+    "page": "docs/observability/metric-cardinality/index"
+  },
+  {
+    "slug": "observability/synthetic-probes",
+    "section": "observability",
+    "title": "Synthetic probes",
+    "summary": "Synthetic probes guidance for reliable service operations.",
+    "file": "docs/observability/synthetic-probes.md",
+    "page": "docs/observability/synthetic-probes/index"
+  },
+  {
+    "slug": "observability/capacity-planning",
+    "section": "observability",
+    "title": "Capacity planning",
+    "summary": "Capacity planning guidance for reliable service operations.",
+    "file": "docs/observability/capacity-planning.md",
+    "page": "docs/observability/capacity-planning/index"
+  },
+  {
+    "slug": "api/authentication",
+    "section": "api",
+    "title": "Authentication",
+    "summary": "Authentication guidance for reliable service operations.",
+    "file": "docs/api/authentication.md",
+    "page": "docs/api/authentication/index"
+  },
+  {
+    "slug": "api/list-deployments",
+    "section": "api",
+    "title": "List deployments",
+    "summary": "List deployments guidance for reliable service operations.",
+    "file": "docs/api/list-deployments.md",
+    "page": "docs/api/list-deployments/index"
+  },
+  {
+    "slug": "api/create-deployment",
+    "section": "api",
+    "title": "Create deployment",
+    "summary": "Create deployment guidance for reliable service operations.",
+    "file": "docs/api/create-deployment.md",
+    "page": "docs/api/create-deployment/index"
+  },
+  {
+    "slug": "api/deployment-status",
+    "section": "api",
+    "title": "Deployment status",
+    "summary": "Deployment status guidance for reliable service operations.",
+    "file": "docs/api/deployment-status.md",
+    "page": "docs/api/deployment-status/index"
+  },
+  {
+    "slug": "api/list-incidents",
+    "section": "api",
+    "title": "List incidents",
+    "summary": "List incidents guidance for reliable service operations.",
+    "file": "docs/api/list-incidents.md",
+    "page": "docs/api/list-incidents/index"
+  },
+  {
+    "slug": "api/create-incident",
+    "section": "api",
+    "title": "Create incident",
+    "summary": "Create incident guidance for reliable service operations.",
+    "file": "docs/api/create-incident.md",
+    "page": "docs/api/create-incident/index"
+  },
+  {
+    "slug": "api/pagination",
+    "section": "api",
+    "title": "Pagination",
+    "summary": "Pagination guidance for reliable service operations.",
+    "file": "docs/api/pagination.md",
+    "page": "docs/api/pagination/index"
+  },
+  {
+    "slug": "api/rate-limits",
+    "section": "api",
+    "title": "Rate limits",
+    "summary": "Rate limits guidance for reliable service operations.",
+    "file": "docs/api/rate-limits.md",
+    "page": "docs/api/rate-limits/index"
+  },
+  {
+    "slug": "api/webhooks",
+    "section": "api",
+    "title": "Webhooks",
+    "summary": "Webhooks guidance for reliable service operations.",
+    "file": "docs/api/webhooks.md",
+    "page": "docs/api/webhooks/index"
+  },
+  {
+    "slug": "api/error-responses",
+    "section": "api",
+    "title": "Error responses",
+    "summary": "Error responses guidance for reliable service operations.",
+    "file": "docs/api/error-responses.md",
+    "page": "docs/api/error-responses/index"
+  },
+  {
+    "slug": "security/access-roles",
+    "section": "security",
+    "title": "Access roles",
+    "summary": "Access roles guidance for reliable service operations.",
+    "file": "docs/security/access-roles.md",
+    "page": "docs/security/access-roles/index"
+  },
+  {
+    "slug": "security/api-token-rotation",
+    "section": "security",
+    "title": "API token rotation",
+    "summary": "API token rotation guidance for reliable service operations.",
+    "file": "docs/security/api-token-rotation.md",
+    "page": "docs/security/api-token-rotation/index"
+  },
+  {
+    "slug": "security/audit-events",
+    "section": "security",
+    "title": "Audit events",
+    "summary": "Audit events guidance for reliable service operations.",
+    "file": "docs/security/audit-events.md",
+    "page": "docs/security/audit-events/index"
+  },
+  {
+    "slug": "security/secret-handling",
+    "section": "security",
+    "title": "Secret handling",
+    "summary": "Secret handling guidance for reliable service operations.",
+    "file": "docs/security/secret-handling.md",
+    "page": "docs/security/secret-handling/index"
+  },
+  {
+    "slug": "security/data-retention",
+    "section": "security",
+    "title": "Data retention",
+    "summary": "Data retention guidance for reliable service operations.",
+    "file": "docs/security/data-retention.md",
+    "page": "docs/security/data-retention/index"
+  },
+  {
+    "slug": "security/environment-isolation",
+    "section": "security",
+    "title": "Environment isolation",
+    "summary": "Environment isolation guidance for reliable service operations.",
+    "file": "docs/security/environment-isolation.md",
+    "page": "docs/security/environment-isolation/index"
+  },
+  {
+    "slug": "security/approval-policies",
+    "section": "security",
+    "title": "Approval policies",
+    "summary": "Approval policies guidance for reliable service operations.",
+    "file": "docs/security/approval-policies.md",
+    "page": "docs/security/approval-policies/index"
+  },
+  {
+    "slug": "security/dependency-review",
+    "section": "security",
+    "title": "Dependency review",
+    "summary": "Dependency review guidance for reliable service operations.",
+    "file": "docs/security/dependency-review.md",
+    "page": "docs/security/dependency-review/index"
+  },
+  {
+    "slug": "security/incident-access",
+    "section": "security",
+    "title": "Incident access",
+    "summary": "Incident access guidance for reliable service operations.",
+    "file": "docs/security/incident-access.md",
+    "page": "docs/security/incident-access/index"
+  },
+  {
+    "slug": "security/compliance-exports",
+    "section": "security",
+    "title": "Compliance exports",
+    "summary": "Compliance exports guidance for reliable service operations.",
+    "file": "docs/security/compliance-exports.md",
+    "page": "docs/security/compliance-exports/index"
+  },
+  {
+    "slug": "reliability/recovery-validation",
+    "section": "reliability",
+    "title": "Recovery validation",
+    "summary": "Verify a recovery with user-facing evidence before closing an incident.",
+    "file": "docs/reliability/recovery-validation.md",
+    "page": "docs/reliability/recovery-validation/index"
+  },
+  {
+    "slug": "reliability/dependency-failure-drills",
+    "section": "reliability",
+    "title": "Dependency failure drills",
+    "summary": "Practice a bounded dependency failure and capture actionable recovery evidence.",
+    "file": "docs/reliability/dependency-failure-drills.md",
+    "page": "docs/reliability/dependency-failure-drills/index"
+  }
+]

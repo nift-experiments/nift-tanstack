@@ -1,0 +1,12 @@
+{
+  "config": {
+    "content-dir": "hybrid/content/",
+    "content-ext": ".html",
+    "output-dir": ".cache/hybrid/payload/",
+    "output-ext": ".json",
+    "default-template": "hybrid/templates/payload.html",
+    "build-threads": 4,
+    "incremental-mode": "hash",
+    "minify-exts": []
+  }
+}
