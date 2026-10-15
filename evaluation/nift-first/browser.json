@@ -1,0 +1,50 @@
+{
+  "scale": 3000,
+  "authoredMDX": {
+    "tab": "Recover changes panel to recovery procedure",
+    "calculator": "251 requests/min \u00b7 15060 requests/hour"
+  },
+  "generatedMDX": {
+    "slug": "reference/identity/v1/create",
+    "tab": "SDK \u2192 client.identity.create()",
+    "initialCalculator": "74 requests/min \u00b7 4440 requests/hour"
+  },
+  "workspace": {
+    "dashboard": "80 deployments / 48 healthy / 8 open incidents",
+    "deploymentFilter": "payments \u2192 16 results; dpl-080 detail loads",
+    "settings": "Islands workspace saved and restored after document navigation",
+    "services": "payments \u2192 1 of 5 services",
+    "incidents": "resolved \u2192 inc-003/inc-006/inc-009/inc-012",
+    "capacity": [
+      "1 of 5 services exceed the 1000-second budget.",
+      "5 of 5 services exceed the 100-second budget."
+    ]
+  },
+  "navigation": {
+    "insideWorkspace": "client Router navigation",
+    "docsAndAppBoundary": "document navigation; header note restored from explicit sessionStorage",
+    "note": "Nift-first boundary proof"
+  },
+  "search": "recovery evidence returns maintained checklist among 20 results",
+  "explorer": {
+    "libraries": [
+      "Query",
+      "Table",
+      "Virtual",
+      "Form"
+    ],
+    "filter": "payments \u2192 184 references",
+    "sorting": "Reference asc",
+    "virtualScroll": "last viewport includes validate/versioning/webhooks; 16 mounted links for 184 filtered records",
+    "emptySubmit": "error and disabled save; no success message",
+    "validSubmit": "Local subscription saved for reference@example.test",
+    "accessibleNameStable": "Update email after errors"
+  },
+  "warningsAndErrors": [],
+  "limits": [
+    "not a mobile certification",
+    "no full-page hydration claim",
+    "no shared React context across docs/app",
+    "local fixture APIs, no authenticated backend"
+  ]
+}

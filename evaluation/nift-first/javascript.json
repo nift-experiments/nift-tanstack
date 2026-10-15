@@ -1,0 +1,96 @@
+{
+  "method": "Actual browser HTTP response-body bytes through no-store localhost proxies; includes loaded .js resources, excludes HTTP headers/TLS/inline scripts. Adapters do not compress. Gzip totals are calculated package estimates, not actual transfer. No claim of Web Vitals or network latency.",
+  "captures": [
+    {
+      "capture": "network-mdx-control",
+      "jsResponseBytes": 395711,
+      "jsRequests": 4,
+      "jsPaths": [
+        "/assets/index-nmHK3L4n.js",
+        "/assets/link-CTn7aEBm.js",
+        "/assets/createServerFn-BT5EFuTs.js",
+        "/assets/docs._-D4DyqtRg.js"
+      ],
+      "inlineScriptBytesInHTML": 9561,
+      "externalPlusInlineScriptBytes": 405272
+    },
+    {
+      "capture": "network-mdx-hybrid",
+      "jsResponseBytes": 395711,
+      "jsRequests": 4,
+      "jsPaths": [
+        "/assets/index-nmHK3L4n.js",
+        "/assets/link-CTn7aEBm.js",
+        "/assets/createServerFn-BT5EFuTs.js",
+        "/assets/docs._-D4DyqtRg.js"
+      ],
+      "inlineScriptBytesInHTML": 9561,
+      "externalPlusInlineScriptBytes": 405272
+    },
+    {
+      "capture": "network-mdx-nift-first",
+      "jsResponseBytes": 221084,
+      "jsRequests": 3,
+      "jsPaths": [
+        "/assets/docs.js",
+        "/assets/shell.js",
+        "/assets/jsx-runtime-ZduMg_1v.js"
+      ],
+      "inlineScriptBytesInHTML": 0,
+      "externalPlusInlineScriptBytes": 221084
+    },
+    {
+      "capture": "network-plain-control",
+      "jsResponseBytes": 395711,
+      "jsRequests": 4,
+      "jsPaths": [
+        "/assets/index-nmHK3L4n.js",
+        "/assets/link-CTn7aEBm.js",
+        "/assets/docs._-D4DyqtRg.js",
+        "/assets/createServerFn-BT5EFuTs.js"
+      ],
+      "inlineScriptBytesInHTML": 8345,
+      "externalPlusInlineScriptBytes": 404056
+    },
+    {
+      "capture": "network-plain-hybrid",
+      "jsResponseBytes": 395711,
+      "jsRequests": 4,
+      "jsPaths": [
+        "/assets/index-nmHK3L4n.js",
+        "/assets/link-CTn7aEBm.js",
+        "/assets/createServerFn-BT5EFuTs.js",
+        "/assets/docs._-D4DyqtRg.js"
+      ],
+      "inlineScriptBytesInHTML": 8345,
+      "externalPlusInlineScriptBytes": 404056
+    },
+    {
+      "capture": "network-plain-nift-first",
+      "jsResponseBytes": 746,
+      "jsRequests": 1,
+      "jsPaths": [
+        "/assets/shell.js"
+      ],
+      "inlineScriptBytesInHTML": 0,
+      "externalPlusInlineScriptBytes": 746
+    }
+  ],
+  "allPublishedJS": {
+    "hybrid": {
+      "files": 13,
+      "uncompressedBytes": 419381,
+      "sumIndividualGzipBytes": 134904
+    },
+    "control": {
+      "files": 13,
+      "uncompressedBytes": 419381,
+      "sumIndividualGzipBytes": 134904
+    },
+    "nift-first": {
+      "files": 7,
+      "uncompressedBytes": 466002,
+      "sumIndividualGzipBytes": 142191
+    }
+  }
+}

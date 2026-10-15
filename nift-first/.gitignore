@@ -1,0 +1,14 @@
+node_modules/
+public/
+.generated/
+.cache/
+.nift/*
+!.nift/config.json
+
+.build.log
+
+.campaign-stream.log
+
+.test.log
+
+__pycache__/

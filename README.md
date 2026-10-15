@@ -2,6 +2,17 @@
 
 Public engineering R&D, **not a deployed website or an adoption claim**. The original 62-guide result is preserved under `baseline-62/` with its conclusion unchanged. Phase 2 tests one hydrated Start/Router application at 62, 500, 1,500 and 3,000 documents.
 
+## Follow-up: Nift-first islands
+
+A third, isolated configuration now tests Nift-owned static HTML with selective React/TanStack islands. See [the three-way report](evaluation/nift-first/REPORT.md) and [its build/serve instructions](nift-first/README.md). It improves full publication and article JavaScript delivery for this static portal, while the optimized control still wins docs-edit/no-op timing and retains the fuller Start contract. Phase 2 conclusions below remain scoped to its integrated application.
+
+```sh
+cd nift-first
+bun install --frozen-lockfile
+bun run build
+bun run serve                  # http://127.0.0.1:4214/
+```
+
 ## Prerequisites and commands
 
 Bun 1.4.3, Node 22.22.1 and Nift 4.12.0 on PATH. Exact JS dependencies are pinned in package.json/bun.lock. No accounts, external services or secrets are required.

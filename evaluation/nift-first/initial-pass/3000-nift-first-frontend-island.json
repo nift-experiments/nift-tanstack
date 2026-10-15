@@ -1,0 +1,43 @@
+{
+  "scenario": "3000-nift-first-frontend-island",
+  "command": [
+    "bun",
+    "tools/build.ts"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 2.67182138399221,
+  "maximumIndividualProcessKiB_time": 223748,
+  "sampledTreePeakMiB": 264.95703125,
+  "dominantAtTreePeak": [
+    1410,
+    229117952,
+    "node"
+  ],
+  "dominantCommandAtTreePeak": "node $REPO_ROOT/node_modules/.bin/vite build --config vite.config.ts ",
+  "sampledIndividualPeakMiB": 218.50390625,
+  "sampleCount": 933,
+  "targetIntervalMs": 2,
+  "samplingMethod": "all-thread-kernel-descendants-v2",
+  "maximumObservedIntervalMs": 12.953039025887847,
+  "pipeline": {
+    "model": "nift-first",
+    "scale": 3000,
+    "mdx": 979,
+    "fresh": false,
+    "all": false,
+    "compiled": 0,
+    "appRan": true,
+    "searchRan": false,
+    "rendered": 0,
+    "pages": 3089,
+    "times": {
+      "plan": 0.084668423,
+      "compile": 0.00031495399999998595,
+      "app": 1.181955567,
+      "search": 0.003037949000000026,
+      "prepare": 0.31048263,
+      "nift": 1.068549395
+    },
+    "totalSeconds": 2.652198285
+  }
+}

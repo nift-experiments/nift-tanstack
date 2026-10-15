@@ -1,0 +1,9 @@
+{
+  "command": "bun run test",
+  "scale": 3000,
+  "passed": 1,
+  "failed": 0,
+  "assertions": 13,
+  "durationSeconds": 9.71,
+  "typecheck": "passed"
+}

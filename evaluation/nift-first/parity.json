@@ -1,0 +1,14 @@
+{
+  "documents": 3000,
+  "mdx": 979,
+  "islandMounts": 1958,
+  "pages": 3089,
+  "searchBytesEqualToControl": true,
+  "compared": [
+    "all heading levels/text/anchors",
+    "all table cell text",
+    "all syntax-highlighted code text",
+    "all local href/src targets"
+  ],
+  "failures": []
+}

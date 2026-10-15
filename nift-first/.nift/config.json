@@ -1,0 +1,1 @@
+{"config":{"content-dir":".generated/content/","content-ext":".html","output-dir":"public/","output-ext":".html","default-template":"templates/page.html","build-threads":4,"incremental-mode":"hash","minify-exts":[]}}

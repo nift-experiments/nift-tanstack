@@ -1,0 +1,43 @@
+{
+  "scenario": "3000-nift-first-docs-edit",
+  "command": [
+    "bun",
+    "tools/build.ts"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 2.2329764869064093,
+  "maximumIndividualProcessKiB_time": 192304,
+  "sampledTreePeakMiB": 198.8046875,
+  "dominantAtTreePeak": [
+    1060,
+    194854912,
+    "bun"
+  ],
+  "dominantCommandAtTreePeak": "bun tools/build.ts ",
+  "sampledIndividualPeakMiB": 187.796875,
+  "sampleCount": 884,
+  "targetIntervalMs": 2,
+  "samplingMethod": "all-thread-kernel-descendants-v2",
+  "maximumObservedIntervalMs": 3.8295190315693617,
+  "pipeline": {
+    "model": "nift-first",
+    "scale": 3000,
+    "mdx": 979,
+    "fresh": false,
+    "all": false,
+    "compiled": 1,
+    "appRan": false,
+    "searchRan": true,
+    "rendered": 1,
+    "pages": 3089,
+    "times": {
+      "plan": 0.09287955199999999,
+      "compile": 0.11223396000000001,
+      "app": 0.005470914999999991,
+      "search": 0.640909504,
+      "prepare": 0.3037421469999999,
+      "nift": 1.045066144
+    },
+    "totalSeconds": 2.202439423
+  }
+}
