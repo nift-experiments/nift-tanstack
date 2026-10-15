@@ -1,0 +1,4 @@
+$ bun tools/build.ts
+✓ 63 tracked files are up to date
+time taken: 0.011279 seconds
+{"appBuildRan":false,"appSeconds":0,"niftSeconds":0.013700753999999999,"totalSeconds":0.019097364999999998}

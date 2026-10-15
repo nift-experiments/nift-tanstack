@@ -1,0 +1,22 @@
+{
+  "scenario": "control-warm-full",
+  "command": [
+    "bun",
+    "run",
+    "build:control"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 2.139727049972862,
+  "maximumIndividualProcessKiB_time": 424640,
+  "sampledTreePeakMiB": 424.1953125,
+  "dominantAtTreePeak": [
+    2927599,
+    434831360,
+    "node"
+  ],
+  "sampledIndividualPeakMiB": 414.6875,
+  "sampleCount": 709,
+  "targetIntervalMs": 2,
+  "samplingMethod": "all-thread-kernel-descendants-v2",
+  "maximumObservedIntervalMs": 7.2212249506264925
+}

@@ -1,0 +1,21 @@
+{
+  "scenario": "hybrid-fresh",
+  "command": [
+    "bun",
+    "run",
+    "build"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 1.4968719040043652,
+  "maximumIndividualProcessKiB_time": 375664,
+  "sampledTreePeakMiB": 408.8046875,
+  "dominantAtTreePeak": [
+    2925832,
+    381538304,
+    "node"
+  ],
+  "sampledIndividualPeakMiB": 363.86328125,
+  "sampleCount": 42,
+  "targetIntervalMs": 20,
+  "maximumObservedIntervalMs": 44.35184085741639
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "scenario": "docs",
+    "changed": [
+      "public/docs/start/workspace-setup/index.html"
+    ],
+    "phase": {
+      "appBuildRan": false,
+      "appSeconds": 0,
+      "niftSeconds": 0.015836537,
+      "totalSeconds": 0.020416612
+    }
+  },
+  {
+    "scenario": "docs-shell",
+    "count": 62,
+    "phase": {
+      "appBuildRan": false,
+      "appSeconds": 0,
+      "niftSeconds": 0.028643155,
+      "totalSeconds": 0.035440786
+    }
+  },
+  {
+    "scenario": "partial-artifact-repair",
+    "phase": {
+      "appBuildRan": true,
+      "appSeconds": 1.509298661,
+      "niftSeconds": 0.026377022000000125,
+      "totalSeconds": 1.542508782
+    }
+  }
+]

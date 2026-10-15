@@ -1,0 +1,17 @@
+node_modules/
+dist/
+control/dist/
+.generated/
+.nift/.lock
+.nift/identity-stage1/
+.nift/public/
+public/index.html
+public/docs/
+public/site.css
+public/preferences.js
+src/routeTree.gen.ts
+control/src/routeTree.gen.ts
+evaluation/work/
+content/docs/
+.nift/identity-*
+evaluation/checkpoints/*.tar.gz

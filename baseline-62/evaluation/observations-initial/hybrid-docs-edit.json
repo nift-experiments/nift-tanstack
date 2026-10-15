@@ -1,0 +1,21 @@
+{
+  "scenario": "hybrid-docs-edit",
+  "command": [
+    "bun",
+    "run",
+    "build"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 0.06898580817505717,
+  "maximumIndividualProcessKiB_time": 28472,
+  "sampledTreePeakMiB": 9.48828125,
+  "dominantAtTreePeak": [
+    2926254,
+    8450048,
+    "bun"
+  ],
+  "sampledIndividualPeakMiB": 8.05859375,
+  "sampleCount": 2,
+  "targetIntervalMs": 20,
+  "maximumObservedIntervalMs": 33.152997959405184
+}

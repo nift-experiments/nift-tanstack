@@ -1,0 +1,21 @@
+{
+  "scenario": "hybrid-warm-full",
+  "command": [
+    "bun",
+    "run",
+    "build:full"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 1.6437231919262558,
+  "maximumIndividualProcessKiB_time": 392600,
+  "sampledTreePeakMiB": 426.796875,
+  "dominantAtTreePeak": [
+    2925952,
+    400547840,
+    "node"
+  ],
+  "sampledIndividualPeakMiB": 381.9921875,
+  "sampleCount": 44,
+  "targetIntervalMs": 20,
+  "maximumObservedIntervalMs": 50.94570480287075
+}

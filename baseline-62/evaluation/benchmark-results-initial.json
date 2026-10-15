@@ -1,0 +1,275 @@
+[
+  {
+    "scenario": "control-component-edit",
+    "command": [
+      "bun",
+      "run",
+      "build:control"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 2.0420165359973907,
+    "maximumIndividualProcessKiB_time": 456636,
+    "sampledTreePeakMiB": 455.12109375,
+    "dominantAtTreePeak": [
+      2926922,
+      467267584,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 445.62109375,
+    "sampleCount": 56,
+    "targetIntervalMs": 20,
+    "maximumObservedIntervalMs": 49.22020295634866
+  },
+  {
+    "scenario": "control-docs-edit",
+    "command": [
+      "bun",
+      "run",
+      "build:control"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 2.114025945076719,
+    "maximumIndividualProcessKiB_time": 438092,
+    "sampledTreePeakMiB": 436.70703125,
+    "dominantAtTreePeak": [
+      2926288,
+      447950848,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 427.19921875,
+    "sampleCount": 56,
+    "targetIntervalMs": 20,
+    "maximumObservedIntervalMs": 54.118728963658214
+  },
+  {
+    "scenario": "control-fresh",
+    "command": [
+      "bun",
+      "run",
+      "build:control"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 1.8936482311692089,
+    "maximumIndividualProcessKiB_time": 446964,
+    "sampledTreePeakMiB": 445.67578125,
+    "dominantAtTreePeak": [
+      2926074,
+      457363456,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 436.17578125,
+    "sampleCount": 54,
+    "targetIntervalMs": 20,
+    "maximumObservedIntervalMs": 42.373711010441184
+  },
+  {
+    "scenario": "control-shared-layout",
+    "command": [
+      "bun",
+      "run",
+      "build:control"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 2.296040690969676,
+    "maximumIndividualProcessKiB_time": 434804,
+    "sampledTreePeakMiB": 434.11328125,
+    "dominantAtTreePeak": [
+      2926574,
+      445239296,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 424.61328125,
+    "sampleCount": 57,
+    "targetIntervalMs": 20,
+    "maximumObservedIntervalMs": 59.92006207816303
+  },
+  {
+    "scenario": "control-ssr-only",
+    "command": [
+      "bun",
+      "run",
+      "build:control:ssr"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 1.8505821358412504,
+    "maximumIndividualProcessKiB_time": 420472,
+    "sampledTreePeakMiB": 419.03515625,
+    "dominantAtTreePeak": [
+      2927136,
+      429580288,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 409.6796875,
+    "sampleCount": 46,
+    "targetIntervalMs": 20,
+    "maximumObservedIntervalMs": 57.941638166084886
+  },
+  {
+    "scenario": "control-unchanged",
+    "command": [
+      "bun",
+      "run",
+      "build:control"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 1.8926023331005126,
+    "maximumIndividualProcessKiB_time": 468540,
+    "sampledTreePeakMiB": 467.05859375,
+    "dominantAtTreePeak": [
+      2926194,
+      479784960,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 457.55859375,
+    "sampleCount": 53,
+    "targetIntervalMs": 20,
+    "maximumObservedIntervalMs": 49.55888702534139
+  },
+  {
+    "scenario": "control-warm-full",
+    "command": [
+      "bun",
+      "run",
+      "build:control"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 2.1538873659446836,
+    "maximumIndividualProcessKiB_time": 425800,
+    "sampledTreePeakMiB": 425.01171875,
+    "dominantAtTreePeak": [
+      2926134,
+      435855360,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 415.6640625,
+    "sampleCount": 57,
+    "targetIntervalMs": 20,
+    "maximumObservedIntervalMs": 56.7207548301667
+  },
+  {
+    "scenario": "hybrid-component-edit",
+    "command": [
+      "bun",
+      "run",
+      "build"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 1.633401257218793,
+    "maximumIndividualProcessKiB_time": 420860,
+    "sampledTreePeakMiB": 454.47265625,
+    "dominantAtTreePeak": [
+      2926827,
+      429158400,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 409.27734375,
+    "sampleCount": 45,
+    "targetIntervalMs": 20,
+    "maximumObservedIntervalMs": 53.03964694030583
+  },
+  {
+    "scenario": "hybrid-docs-edit",
+    "command": [
+      "bun",
+      "run",
+      "build"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 0.06898580817505717,
+    "maximumIndividualProcessKiB_time": 28472,
+    "sampledTreePeakMiB": 9.48828125,
+    "dominantAtTreePeak": [
+      2926254,
+      8450048,
+      "bun"
+    ],
+    "sampledIndividualPeakMiB": 8.05859375,
+    "sampleCount": 2,
+    "targetIntervalMs": 20,
+    "maximumObservedIntervalMs": 33.152997959405184
+  },
+  {
+    "scenario": "hybrid-fresh",
+    "command": [
+      "bun",
+      "run",
+      "build"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 1.4968719040043652,
+    "maximumIndividualProcessKiB_time": 375664,
+    "sampledTreePeakMiB": 408.8046875,
+    "dominantAtTreePeak": [
+      2925832,
+      381538304,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 363.86328125,
+    "sampleCount": 42,
+    "targetIntervalMs": 20,
+    "maximumObservedIntervalMs": 44.35184085741639
+  },
+  {
+    "scenario": "hybrid-shared-layout",
+    "command": [
+      "bun",
+      "run",
+      "build"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 1.4995204319711775,
+    "maximumIndividualProcessKiB_time": 418900,
+    "sampledTreePeakMiB": 452.7265625,
+    "dominantAtTreePeak": [
+      2926465,
+      427479040,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 407.67578125,
+    "sampleCount": 41,
+    "targetIntervalMs": 20,
+    "maximumObservedIntervalMs": 54.02126512490213
+  },
+  {
+    "scenario": "hybrid-unchanged",
+    "command": [
+      "bun",
+      "run",
+      "build"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 0.03859434090554714,
+    "maximumIndividualProcessKiB_time": 28472,
+    "sampledTreePeakMiB": 9.40625,
+    "dominantAtTreePeak": [
+      2926041,
+      8368128,
+      "bun"
+    ],
+    "sampledIndividualPeakMiB": 7.98046875,
+    "sampleCount": 1,
+    "targetIntervalMs": 20,
+    "maximumObservedIntervalMs": 0.8875189814716578
+  },
+  {
+    "scenario": "hybrid-warm-full",
+    "command": [
+      "bun",
+      "run",
+      "build:full"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 1.6437231919262558,
+    "maximumIndividualProcessKiB_time": 392600,
+    "sampledTreePeakMiB": 426.796875,
+    "dominantAtTreePeak": [
+      2925952,
+      400547840,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 381.9921875,
+    "sampleCount": 44,
+    "targetIntervalMs": 20,
+    "maximumObservedIntervalMs": 50.94570480287075
+  }
+]

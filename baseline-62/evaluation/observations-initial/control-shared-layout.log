@@ -1,0 +1,179 @@
+$ vite build --config control/vite.config.ts
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 219 modules transformed.
+rendering chunks...
+computing gzip size...
+control/dist/client/assets/site-gE6mvrZy.css                    3.52 kB │ gzip:  1.38 kB
+control/dist/client/assets/routes-BuEcn4nm.js                   0.07 kB │ gzip:  0.08 kB
+control/dist/client/assets/app.services-DhXkPh0p.js             0.07 kB │ gzip:  0.08 kB
+control/dist/client/assets/app.incidents-DTZOHeTv.js            0.16 kB │ gzip:  0.15 kB
+control/dist/client/assets/app.index-CZs_a2aO.js                0.16 kB │ gzip:  0.15 kB
+control/dist/client/assets/app.settings-D0nO0rdw.js             0.16 kB │ gzip:  0.15 kB
+control/dist/client/assets/app.deployments._id-C4gldmbZ.js      0.18 kB │ gzip:  0.16 kB
+control/dist/client/assets/app.deployments.index-DcKl2LpB.js    0.21 kB │ gzip:  0.17 kB
+control/dist/client/assets/docs._-DphPhhbk.js                   0.34 kB │ gzip:  0.26 kB
+control/dist/client/assets/Docs-CefVVo6b.js                    16.42 kB │ gzip:  2.65 kB
+control/dist/client/assets/createServerFn-PmX8pII3.js          36.17 kB │ gzip: 11.65 kB
+control/dist/client/assets/site-BhVRpXbN.js                    72.88 kB │ gzip: 26.20 kB
+control/dist/client/assets/index-zD6cs39E.js                  282.71 kB │ gzip: 87.89 kB
+
+✓ built in 644ms
+vite v8.3.4 building ssr environment for production...
+transforming...
+✓ 147 modules transformed.
+rendering chunks...
+computing gzip size...
+control/dist/server/assets/start-5Z2QO8AU.js                        0.14 kB │ gzip:  0.13 kB
+control/dist/server/assets/routes-2Pz8Zb1u.js                       0.19 kB │ gzip:  0.15 kB
+control/dist/server/assets/app.services-Bt3qkYgV.js                 0.20 kB │ gzip:  0.16 kB
+control/dist/server/assets/empty-plugin-adapters-D9UWiqvJ.js        0.22 kB │ gzip:  0.16 kB
+control/dist/server/assets/app.index-C-g6Fxdr.js                    0.33 kB │ gzip:  0.23 kB
+control/dist/server/assets/app.settings-fwmli4z2.js                 0.33 kB │ gzip:  0.23 kB
+control/dist/server/assets/app.incidents-CQMvaSpF.js                0.33 kB │ gzip:  0.23 kB
+control/dist/server/assets/app.deployments._id-dWGnR1VJ.js          0.38 kB │ gzip:  0.26 kB
+control/dist/server/assets/createServerRpc-B0PkXF8x.js              0.38 kB │ gzip:  0.26 kB
+control/dist/server/assets/app.deployments.index-C8-QdN-s.js        0.41 kB │ gzip:  0.27 kB
+control/dist/server/assets/createSsrRpc-BdB2e2iw.js                 0.52 kB │ gzip:  0.32 kB
+control/dist/server/assets/docs._-BUqJ8J1U.js                       0.53 kB │ gzip:  0.35 kB
+control/dist/server/assets/site-QK7aP2s4.js                         0.88 kB │ gzip:  0.34 kB
+control/dist/server/assets/docs-data-DAy3M90B.js                    1.03 kB │ gzip:  0.56 kB
+control/dist/server/assets/Docs-BDJI9rPP.js                         2.05 kB │ gzip:  0.79 kB
+control/dist/server/assets/_tanstack-start-manifest_v-DcjcxD-g.js   2.41 kB │ gzip:  0.59 kB
+control/dist/server/assets/router-2HRxRcjA.js                       6.93 kB │ gzip:  2.01 kB
+control/dist/server/assets/Portal-DMM1LK60.js                      14.82 kB │ gzip:  3.78 kB
+control/dist/server/assets/docs-BUOlld1f.js                        16.71 kB │ gzip:  2.21 kB
+control/dist/server/assets/data-ETX_uQ4I.js                        17.61 kB │ gzip:  1.91 kB
+control/dist/server/assets/doc-content-C3h_PGoz.js                 76.28 kB │ gzip:  9.43 kB
+control/dist/server/server.js                                      99.71 kB │ gzip: 25.26 kB
+
+✓ built in 304ms
+[prerender] Prerendering pages...
+[prerender] Concurrency: 4
+[prerender] Crawling: /
+[prerender] Crawling: /docs/start/workspace-setup/
+[prerender] Crawling: /docs/start/first-deployment/
+[prerender] Crawling: /docs/start/environments/
+[prerender] Crawling: /docs/start/team-onboarding/
+[prerender] Crawling: /docs/start/cli-installation/
+[prerender] Crawling: /docs/start/configuration/
+[prerender] Crawling: /docs/start/project-structure/
+[prerender] Crawling: /docs/start/local-development/
+[prerender] Crawling: /docs/start/release-checklist/
+[prerender] Crawling: /docs/start/troubleshooting/
+[prerender] Crawling: /docs/delivery/build-pipelines/
+[prerender] Crawling: /docs/delivery/artifact-retention/
+[prerender] Crawling: /docs/delivery/canary-releases/
+[prerender] Crawling: /docs/delivery/rollback-strategy/
+[prerender] Crawling: /docs/delivery/release-approvals/
+[prerender] Crawling: /docs/delivery/service-dependencies/
+[prerender] Crawling: /docs/delivery/deployment-windows/
+[prerender] Crawling: /docs/delivery/feature-flags/
+[prerender] Crawling: /docs/delivery/health-checks/
+[prerender] Crawling: /docs/delivery/delivery-metrics/
+[prerender] Crawling: /docs/incidents/declare-an-incident/
+[prerender] Crawling: /docs/incidents/severity-policy/
+[prerender] Crawling: /docs/incidents/on-call-handoff/
+[prerender] Crawling: /docs/incidents/customer-communication/
+[prerender] Crawling: /docs/incidents/mitigation-workflow/
+[prerender] Crawling: /docs/incidents/timeline-capture/
+[prerender] Crawling: /docs/incidents/runbook-execution/
+[prerender] Crawling: /docs/incidents/postmortem-writing/
+[prerender] Crawling: /docs/incidents/action-tracking/
+[prerender] Crawling: /docs/incidents/incident-drills/
+[prerender] Crawling: /docs/observability/service-objectives/
+[prerender] Crawling: /docs/observability/error-budgets/
+[prerender] Crawling: /docs/observability/latency-analysis/
+[prerender] Crawling: /docs/observability/log-correlation/
+[prerender] Crawling: /docs/observability/trace-sampling/
+[prerender] Crawling: /docs/observability/alert-routing/
+[prerender] Crawling: /docs/observability/dashboard-design/
+[prerender] Crawling: /docs/observability/metric-cardinality/
+[prerender] Crawling: /docs/observability/synthetic-probes/
+[prerender] Crawling: /docs/observability/capacity-planning/
+[prerender] Crawling: /docs/api/authentication/
+[prerender] Crawling: /docs/api/list-deployments/
+[prerender] Crawling: /docs/api/create-deployment/
+[prerender] Crawling: /docs/api/deployment-status/
+[prerender] Crawling: /docs/api/list-incidents/
+[prerender] Crawling: /docs/api/create-incident/
+[prerender] Crawling: /docs/api/pagination/
+[prerender] Crawling: /docs/api/rate-limits/
+[prerender] Crawling: /docs/api/webhooks/
+[prerender] Crawling: /docs/api/error-responses/
+[prerender] Crawling: /docs/security/access-roles/
+[prerender] Crawling: /docs/security/api-token-rotation/
+[prerender] Crawling: /docs/security/audit-events/
+[prerender] Crawling: /docs/security/secret-handling/
+[prerender] Crawling: /docs/security/data-retention/
+[prerender] Crawling: /docs/security/environment-isolation/
+[prerender] Crawling: /docs/security/approval-policies/
+[prerender] Crawling: /docs/security/dependency-review/
+[prerender] Crawling: /docs/security/incident-access/
+[prerender] Crawling: /docs/security/compliance-exports/
+[prerender] Crawling: /docs/reliability/recovery-validation/
+[prerender] Crawling: /docs/reliability/dependency-failure-drills/
+[prerender] Prerendered 63 pages:
+[prerender] - /
+[prerender] - /docs/start/workspace-setup/
+[prerender] - /docs/start/environments/
+[prerender] - /docs/start/team-onboarding/
+[prerender] - /docs/start/first-deployment/
+[prerender] - /docs/start/cli-installation/
+[prerender] - /docs/start/project-structure/
+[prerender] - /docs/start/configuration/
+[prerender] - /docs/start/local-development/
+[prerender] - /docs/start/release-checklist/
+[prerender] - /docs/start/troubleshooting/
+[prerender] - /docs/delivery/build-pipelines/
+[prerender] - /docs/delivery/artifact-retention/
+[prerender] - /docs/delivery/canary-releases/
+[prerender] - /docs/delivery/rollback-strategy/
+[prerender] - /docs/delivery/release-approvals/
+[prerender] - /docs/delivery/service-dependencies/
+[prerender] - /docs/delivery/deployment-windows/
+[prerender] - /docs/delivery/feature-flags/
+[prerender] - /docs/delivery/health-checks/
+[prerender] - /docs/delivery/delivery-metrics/
+[prerender] - /docs/incidents/severity-policy/
+[prerender] - /docs/incidents/declare-an-incident/
+[prerender] - /docs/incidents/on-call-handoff/
+[prerender] - /docs/incidents/customer-communication/
+[prerender] - /docs/incidents/mitigation-workflow/
+[prerender] - /docs/incidents/timeline-capture/
+[prerender] - /docs/incidents/runbook-execution/
+[prerender] - /docs/incidents/postmortem-writing/
+[prerender] - /docs/incidents/action-tracking/
+[prerender] - /docs/incidents/incident-drills/
+[prerender] - /docs/observability/service-objectives/
+[prerender] - /docs/observability/error-budgets/
+[prerender] - /docs/observability/latency-analysis/
+[prerender] - /docs/observability/log-correlation/
+[prerender] - /docs/observability/trace-sampling/
+[prerender] - /docs/observability/alert-routing/
+[prerender] - /docs/observability/dashboard-design/
+[prerender] - /docs/observability/metric-cardinality/
+[prerender] - /docs/observability/synthetic-probes/
+[prerender] - /docs/observability/capacity-planning/
+[prerender] - /docs/api/list-deployments/
+[prerender] - /docs/api/authentication/
+[prerender] - /docs/api/create-deployment/
+[prerender] - /docs/api/deployment-status/
+[prerender] - /docs/api/list-incidents/
+[prerender] - /docs/api/create-incident/
+[prerender] - /docs/api/pagination/
+[prerender] - /docs/api/rate-limits/
+[prerender] - /docs/api/webhooks/
+[prerender] - /docs/api/error-responses/
+[prerender] - /docs/security/access-roles/
+[prerender] - /docs/security/audit-events/
+[prerender] - /docs/security/api-token-rotation/
+[prerender] - /docs/security/secret-handling/
+[prerender] - /docs/security/data-retention/
+[prerender] - /docs/security/environment-isolation/
+[prerender] - /docs/security/approval-policies/
+[prerender] - /docs/security/dependency-review/
+[prerender] - /docs/security/incident-access/
+[prerender] - /docs/security/compliance-exports/
+[prerender] - /docs/reliability/dependency-failure-drills/
+[prerender] - /docs/reliability/recovery-validation/

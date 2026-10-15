@@ -1,0 +1,28 @@
+[
+  {
+    "model": "hybrid",
+    "pageTwo": true,
+    "empty": true,
+    "incidentCount": 4,
+    "chartPoint": true
+  },
+  {
+    "model": "control",
+    "pageTwo": true,
+    "empty": true,
+    "incidentCount": 4,
+    "chartPoint": true
+  },
+  {
+    "model": "hybrid",
+    "validation": "Enter a valid notification email.",
+    "restoredName": "Fixture team",
+    "theme": "dark"
+  },
+  {
+    "model": "control",
+    "validation": "Enter a valid notification email.",
+    "restoredName": "Fixture team",
+    "theme": "dark"
+  }
+]

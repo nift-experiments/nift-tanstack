@@ -1,0 +1,22 @@
+{
+  "scenario": "hybrid-shared-layout",
+  "command": [
+    "bun",
+    "run",
+    "build"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 1.4700172378215939,
+  "maximumIndividualProcessKiB_time": 405576,
+  "sampledTreePeakMiB": 441.24609375,
+  "dominantAtTreePeak": [
+    2927934,
+    415145984,
+    "node"
+  ],
+  "sampledIndividualPeakMiB": 395.9140625,
+  "sampleCount": 482,
+  "targetIntervalMs": 2,
+  "samplingMethod": "all-thread-kernel-descendants-v2",
+  "maximumObservedIntervalMs": 8.85580712929368
+}

@@ -1,0 +1,36 @@
+{
+  "name": "pulseops-greenfield-experiment",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4200",
+    "dev:control": "vite --config control/vite.config.ts --host 127.0.0.1 --port 4201",
+    "build": "bun tools/build.ts",
+    "build:full": "bun tools/build.ts --all",
+    "build:control": "vite build --config control/vite.config.ts",
+    "build:control:ssr": "PULSE_SSR_ONLY=1 vite build --config control/vite.config.ts",
+    "serve": "bun tools/serve.ts hybrid",
+    "serve:control": "bun tools/serve.ts control",
+    "check": "tsc --noEmit && tsc --noEmit -p control/tsconfig.json && tsc --noEmit -p tsconfig.tools.json",
+    "test": "bun tools/incremental-proof.ts"
+  },
+  "dependencies": {
+    "@tanstack/react-start": "1.169.2",
+    "@tanstack/react-router": "1.170.44",
+    "@tanstack/react-query": "5.104.2",
+    "@tanstack/react-router-ssr-query": "1.167.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "marked": "18.1.1"
+  },
+  "devDependencies": {
+    "@types/bun": "1.4.3",
+    "@types/node": "24.12.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.1.2",
+    "prettier": "3.9.10",
+    "typescript": "7.0.2",
+    "vite": "8.3.4"
+  }
+}

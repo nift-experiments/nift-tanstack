@@ -1,0 +1,21 @@
+{
+  "scenario": "control-unchanged",
+  "command": [
+    "bun",
+    "run",
+    "build:control"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 1.8926023331005126,
+  "maximumIndividualProcessKiB_time": 468540,
+  "sampledTreePeakMiB": 467.05859375,
+  "dominantAtTreePeak": [
+    2926194,
+    479784960,
+    "node"
+  ],
+  "sampledIndividualPeakMiB": 457.55859375,
+  "sampleCount": 53,
+  "targetIntervalMs": 20,
+  "maximumObservedIntervalMs": 49.55888702534139
+}

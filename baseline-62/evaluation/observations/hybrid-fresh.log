@@ -1,0 +1,43 @@
+$ bun tools/build.ts
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 212 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/client/assets/site-gE6mvrZy.css                    3.52 kB │ gzip:   1.38 kB
+dist/client/assets/app.services-Ba9kxBmN.js             0.07 kB │ gzip:   0.08 kB
+dist/client/assets/app.incidents-Bnh5TVU-.js            0.13 kB │ gzip:   0.13 kB
+dist/client/assets/app.index-C1BnOwFj.js                0.13 kB │ gzip:   0.13 kB
+dist/client/assets/app.settings-Ca6yqh5Y.js             0.13 kB │ gzip:   0.13 kB
+dist/client/assets/app.deployments._id-YLLCkQkp.js      0.15 kB │ gzip:   0.14 kB
+dist/client/assets/app.deployments.index-Bl_kIexu.js    0.17 kB │ gzip:   0.16 kB
+dist/client/assets/index-BXsyawyG.js                  390.59 kB │ gzip: 123.80 kB
+
+✓ built in 387ms
+vite v8.3.4 building ssr environment for production...
+transforming...
+✓ 76 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/server/assets/start-5Z2QO8AU.js                        0.14 kB │ gzip:  0.13 kB
+dist/server/assets/app.services-7uiVCT6E.js                 0.19 kB │ gzip:  0.15 kB
+dist/server/assets/empty-plugin-adapters-D9UWiqvJ.js        0.22 kB │ gzip:  0.16 kB
+dist/server/assets/app.index-DCxbvL_3.js                    0.32 kB │ gzip:  0.23 kB
+dist/server/assets/app.settings-Wr2xIDGn.js                 0.32 kB │ gzip:  0.22 kB
+dist/server/assets/app.incidents-DT2gIIB3.js                0.32 kB │ gzip:  0.22 kB
+dist/server/assets/app.deployments._id-DG8k0uqo.js          0.37 kB │ gzip:  0.25 kB
+dist/server/assets/app.deployments.index-Bn4R2vQr.js        0.41 kB │ gzip:  0.26 kB
+dist/server/assets/_tanstack-start-manifest_v-BWn9SOlE.js   1.81 kB │ gzip:  0.48 kB
+dist/server/assets/router-ykvMADs1.js                       5.55 kB │ gzip:  1.63 kB
+dist/server/assets/Portal-BcTvELGq.js                      15.99 kB │ gzip:  4.14 kB
+dist/server/assets/data-BfSUq8aY.js                        17.84 kB │ gzip:  2.07 kB
+dist/server/server.js                                      99.52 kB │ gzip: 25.16 kB
+
+✓ built in 177ms
+rebuild causes:
+  ↳ generated output is missing → 63 files
+  ↳ page build metadata is missing → 63 files
+affected files: /, docs/start/workspace-setup/index, docs/start/first-deployment/index, docs/start/environments/index, docs/start/team-onboarding/index  +58 more
+📦 63 files rebuilt successfully
+time taken: 0.039208 seconds
+{"appBuildRan":true,"appSeconds":1.284222235,"niftSeconds":0.04240209699999991,"totalSeconds":1.3340596550000001}

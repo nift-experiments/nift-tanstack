@@ -1,0 +1,6 @@
+$ bun tools/build.ts
+built docs/start/workspace-setup/index
+    ↳ dependency changed: docs/start/workspace-setup.md
+📦 1 file rebuilt successfully
+time taken: 0.016227 seconds
+{"appBuildRan":false,"appSeconds":0,"niftSeconds":0.018577068000000006,"totalSeconds":0.023824265999999997}

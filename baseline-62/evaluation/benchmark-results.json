@@ -1,0 +1,288 @@
+[
+  {
+    "scenario": "control-component-edit",
+    "command": [
+      "bun",
+      "run",
+      "build:control"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 2.153456259984523,
+    "maximumIndividualProcessKiB_time": 446544,
+    "sampledTreePeakMiB": 445.578125,
+    "dominantAtTreePeak": [
+      2928375,
+      457261056,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 436.078125,
+    "sampleCount": 720,
+    "targetIntervalMs": 2,
+    "samplingMethod": "all-thread-kernel-descendants-v2",
+    "maximumObservedIntervalMs": 8.032436948269606
+  },
+  {
+    "scenario": "control-docs-edit",
+    "command": [
+      "bun",
+      "run",
+      "build:control"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 1.8526386350858957,
+    "maximumIndividualProcessKiB_time": 437028,
+    "sampledTreePeakMiB": 436.296875,
+    "dominantAtTreePeak": [
+      2927752,
+      447516672,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 426.78515625,
+    "sampleCount": 630,
+    "targetIntervalMs": 2,
+    "samplingMethod": "all-thread-kernel-descendants-v2",
+    "maximumObservedIntervalMs": 5.960461217910051
+  },
+  {
+    "scenario": "control-fresh",
+    "command": [
+      "bun",
+      "run",
+      "build:control"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 1.9207603849936277,
+    "maximumIndividualProcessKiB_time": 429292,
+    "sampledTreePeakMiB": 428.58984375,
+    "dominantAtTreePeak": [
+      2927538,
+      439431168,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 419.07421875,
+    "sampleCount": 661,
+    "targetIntervalMs": 2,
+    "samplingMethod": "all-thread-kernel-descendants-v2",
+    "maximumObservedIntervalMs": 8.860646048560739
+  },
+  {
+    "scenario": "control-shared-layout",
+    "command": [
+      "bun",
+      "run",
+      "build:control"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 2.028727757045999,
+    "maximumIndividualProcessKiB_time": 442988,
+    "sampledTreePeakMiB": 441.92578125,
+    "dominantAtTreePeak": [
+      2928041,
+      453619712,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 432.60546875,
+    "sampleCount": 682,
+    "targetIntervalMs": 2,
+    "samplingMethod": "all-thread-kernel-descendants-v2",
+    "maximumObservedIntervalMs": 5.753933917731047
+  },
+  {
+    "scenario": "control-ssr-only",
+    "command": [
+      "bun",
+      "run",
+      "build:control:ssr"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 1.492309849942103,
+    "maximumIndividualProcessKiB_time": 410728,
+    "sampledTreePeakMiB": 410.5,
+    "dominantAtTreePeak": [
+      2928597,
+      420585472,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 401.1015625,
+    "sampleCount": 517,
+    "targetIntervalMs": 2,
+    "samplingMethod": "all-thread-kernel-descendants-v2",
+    "maximumObservedIntervalMs": 5.92320691794157
+  },
+  {
+    "scenario": "control-unchanged",
+    "command": [
+      "bun",
+      "run",
+      "build:control"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 1.8674932548310608,
+    "maximumIndividualProcessKiB_time": 427972,
+    "sampledTreePeakMiB": 427.44921875,
+    "dominantAtTreePeak": [
+      2927660,
+      438243328,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 417.94140625,
+    "sampleCount": 638,
+    "targetIntervalMs": 2,
+    "samplingMethod": "all-thread-kernel-descendants-v2",
+    "maximumObservedIntervalMs": 6.540703121572733
+  },
+  {
+    "scenario": "control-warm-full",
+    "command": [
+      "bun",
+      "run",
+      "build:control"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 2.139727049972862,
+    "maximumIndividualProcessKiB_time": 424640,
+    "sampledTreePeakMiB": 424.1953125,
+    "dominantAtTreePeak": [
+      2927599,
+      434831360,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 414.6875,
+    "sampleCount": 709,
+    "targetIntervalMs": 2,
+    "samplingMethod": "all-thread-kernel-descendants-v2",
+    "maximumObservedIntervalMs": 7.2212249506264925
+  },
+  {
+    "scenario": "hybrid-component-edit",
+    "command": [
+      "bun",
+      "run",
+      "build"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 1.341311760013923,
+    "maximumIndividualProcessKiB_time": 412824,
+    "sampledTreePeakMiB": 448.38671875,
+    "dominantAtTreePeak": [
+      2928283,
+      422567936,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 402.9921875,
+    "sampleCount": 438,
+    "targetIntervalMs": 2,
+    "samplingMethod": "all-thread-kernel-descendants-v2",
+    "maximumObservedIntervalMs": 8.746756939217448
+  },
+  {
+    "scenario": "hybrid-docs-edit",
+    "command": [
+      "bun",
+      "run",
+      "build"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 0.04734229086898267,
+    "maximumIndividualProcessKiB_time": 28472,
+    "sampledTreePeakMiB": 44.26953125,
+    "dominantAtTreePeak": [
+      2927719,
+      29155328,
+      "bun"
+    ],
+    "sampledIndividualPeakMiB": 27.8046875,
+    "sampleCount": 19,
+    "targetIntervalMs": 2,
+    "samplingMethod": "all-thread-kernel-descendants-v2",
+    "maximumObservedIntervalMs": 3.639271017163992
+  },
+  {
+    "scenario": "hybrid-fresh",
+    "command": [
+      "bun",
+      "run",
+      "build"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 1.357739995000884,
+    "maximumIndividualProcessKiB_time": 394092,
+    "sampledTreePeakMiB": 429.296875,
+    "dominantAtTreePeak": [
+      2927296,
+      403386368,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 384.69921875,
+    "sampleCount": 436,
+    "targetIntervalMs": 2,
+    "samplingMethod": "all-thread-kernel-descendants-v2",
+    "maximumObservedIntervalMs": 9.446049807593226
+  },
+  {
+    "scenario": "hybrid-shared-layout",
+    "command": [
+      "bun",
+      "run",
+      "build"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 1.4700172378215939,
+    "maximumIndividualProcessKiB_time": 405576,
+    "sampledTreePeakMiB": 441.24609375,
+    "dominantAtTreePeak": [
+      2927934,
+      415145984,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 395.9140625,
+    "sampleCount": 482,
+    "targetIntervalMs": 2,
+    "samplingMethod": "all-thread-kernel-descendants-v2",
+    "maximumObservedIntervalMs": 8.85580712929368
+  },
+  {
+    "scenario": "hybrid-unchanged",
+    "command": [
+      "bun",
+      "run",
+      "build"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 0.03690746799111366,
+    "maximumIndividualProcessKiB_time": 28712,
+    "sampledTreePeakMiB": 43.93359375,
+    "dominantAtTreePeak": [
+      2927506,
+      29401088,
+      "bun"
+    ],
+    "sampledIndividualPeakMiB": 28.0390625,
+    "sampleCount": 14,
+    "targetIntervalMs": 2,
+    "samplingMethod": "all-thread-kernel-descendants-v2",
+    "maximumObservedIntervalMs": 3.818671917542815
+  },
+  {
+    "scenario": "hybrid-warm-full",
+    "command": [
+      "bun",
+      "run",
+      "build:full"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 1.4597456930205226,
+    "maximumIndividualProcessKiB_time": 389992,
+    "sampledTreePeakMiB": 425.71484375,
+    "dominantAtTreePeak": [
+      2927416,
+      399351808,
+      "node"
+    ],
+    "sampledIndividualPeakMiB": 380.8515625,
+    "sampleCount": 470,
+    "targetIntervalMs": 2,
+    "samplingMethod": "all-thread-kernel-descendants-v2",
+    "maximumObservedIntervalMs": 7.708566961809993
+  }
+]

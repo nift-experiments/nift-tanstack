@@ -1,0 +1,932 @@
+{
+  "deployments": [
+    {
+      "id": "dpl-001",
+      "service": "gateway",
+      "environment": "staging",
+      "status": "healthy",
+      "duration": 49,
+      "revision": "a000001",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-002",
+      "service": "identity",
+      "environment": "preview",
+      "status": "healthy",
+      "duration": 66,
+      "revision": "a000002",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-003",
+      "service": "search",
+      "environment": "production",
+      "status": "running",
+      "duration": 83,
+      "revision": "a000003",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-004",
+      "service": "notifications",
+      "environment": "staging",
+      "status": "failed",
+      "duration": 100,
+      "revision": "a000004",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-005",
+      "service": "payments",
+      "environment": "preview",
+      "status": "healthy",
+      "duration": 117,
+      "revision": "a000005",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-006",
+      "service": "gateway",
+      "environment": "production",
+      "status": "healthy",
+      "duration": 134,
+      "revision": "a000006",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-007",
+      "service": "identity",
+      "environment": "staging",
+      "status": "healthy",
+      "duration": 151,
+      "revision": "a000007",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-008",
+      "service": "search",
+      "environment": "preview",
+      "status": "running",
+      "duration": 168,
+      "revision": "a000008",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-009",
+      "service": "notifications",
+      "environment": "production",
+      "status": "failed",
+      "duration": 185,
+      "revision": "a000009",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-010",
+      "service": "payments",
+      "environment": "staging",
+      "status": "healthy",
+      "duration": 202,
+      "revision": "a00000a",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-011",
+      "service": "gateway",
+      "environment": "preview",
+      "status": "healthy",
+      "duration": 219,
+      "revision": "a00000b",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-012",
+      "service": "identity",
+      "environment": "production",
+      "status": "healthy",
+      "duration": 236,
+      "revision": "a00000c",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-013",
+      "service": "search",
+      "environment": "staging",
+      "status": "running",
+      "duration": 253,
+      "revision": "a00000d",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-014",
+      "service": "notifications",
+      "environment": "preview",
+      "status": "failed",
+      "duration": 270,
+      "revision": "a00000e",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-015",
+      "service": "payments",
+      "environment": "production",
+      "status": "healthy",
+      "duration": 47,
+      "revision": "a00000f",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-016",
+      "service": "gateway",
+      "environment": "staging",
+      "status": "healthy",
+      "duration": 64,
+      "revision": "a000010",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-017",
+      "service": "identity",
+      "environment": "preview",
+      "status": "healthy",
+      "duration": 81,
+      "revision": "a000011",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-018",
+      "service": "search",
+      "environment": "production",
+      "status": "running",
+      "duration": 98,
+      "revision": "a000012",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-019",
+      "service": "notifications",
+      "environment": "staging",
+      "status": "failed",
+      "duration": 115,
+      "revision": "a000013",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-020",
+      "service": "payments",
+      "environment": "preview",
+      "status": "healthy",
+      "duration": 132,
+      "revision": "a000014",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-021",
+      "service": "gateway",
+      "environment": "production",
+      "status": "healthy",
+      "duration": 149,
+      "revision": "a000015",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-022",
+      "service": "identity",
+      "environment": "staging",
+      "status": "healthy",
+      "duration": 166,
+      "revision": "a000016",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-023",
+      "service": "search",
+      "environment": "preview",
+      "status": "running",
+      "duration": 183,
+      "revision": "a000017",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-024",
+      "service": "notifications",
+      "environment": "production",
+      "status": "failed",
+      "duration": 200,
+      "revision": "a000018",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-025",
+      "service": "payments",
+      "environment": "staging",
+      "status": "healthy",
+      "duration": 217,
+      "revision": "a000019",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-026",
+      "service": "gateway",
+      "environment": "preview",
+      "status": "healthy",
+      "duration": 234,
+      "revision": "a00001a",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-027",
+      "service": "identity",
+      "environment": "production",
+      "status": "healthy",
+      "duration": 251,
+      "revision": "a00001b",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-028",
+      "service": "search",
+      "environment": "staging",
+      "status": "running",
+      "duration": 268,
+      "revision": "a00001c",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-029",
+      "service": "notifications",
+      "environment": "preview",
+      "status": "failed",
+      "duration": 45,
+      "revision": "a00001d",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-030",
+      "service": "payments",
+      "environment": "production",
+      "status": "healthy",
+      "duration": 62,
+      "revision": "a00001e",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-031",
+      "service": "gateway",
+      "environment": "staging",
+      "status": "healthy",
+      "duration": 79,
+      "revision": "a00001f",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-032",
+      "service": "identity",
+      "environment": "preview",
+      "status": "healthy",
+      "duration": 96,
+      "revision": "a000020",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-033",
+      "service": "search",
+      "environment": "production",
+      "status": "running",
+      "duration": 113,
+      "revision": "a000021",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-034",
+      "service": "notifications",
+      "environment": "staging",
+      "status": "failed",
+      "duration": 130,
+      "revision": "a000022",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-035",
+      "service": "payments",
+      "environment": "preview",
+      "status": "healthy",
+      "duration": 147,
+      "revision": "a000023",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-036",
+      "service": "gateway",
+      "environment": "production",
+      "status": "healthy",
+      "duration": 164,
+      "revision": "a000024",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-037",
+      "service": "identity",
+      "environment": "staging",
+      "status": "healthy",
+      "duration": 181,
+      "revision": "a000025",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-038",
+      "service": "search",
+      "environment": "preview",
+      "status": "running",
+      "duration": 198,
+      "revision": "a000026",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-039",
+      "service": "notifications",
+      "environment": "production",
+      "status": "failed",
+      "duration": 215,
+      "revision": "a000027",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-040",
+      "service": "payments",
+      "environment": "staging",
+      "status": "healthy",
+      "duration": 232,
+      "revision": "a000028",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-041",
+      "service": "gateway",
+      "environment": "preview",
+      "status": "healthy",
+      "duration": 249,
+      "revision": "a000029",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-042",
+      "service": "identity",
+      "environment": "production",
+      "status": "healthy",
+      "duration": 266,
+      "revision": "a00002a",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-043",
+      "service": "search",
+      "environment": "staging",
+      "status": "running",
+      "duration": 43,
+      "revision": "a00002b",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-044",
+      "service": "notifications",
+      "environment": "preview",
+      "status": "failed",
+      "duration": 60,
+      "revision": "a00002c",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-045",
+      "service": "payments",
+      "environment": "production",
+      "status": "healthy",
+      "duration": 77,
+      "revision": "a00002d",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-046",
+      "service": "gateway",
+      "environment": "staging",
+      "status": "healthy",
+      "duration": 94,
+      "revision": "a00002e",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-047",
+      "service": "identity",
+      "environment": "preview",
+      "status": "healthy",
+      "duration": 111,
+      "revision": "a00002f",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-048",
+      "service": "search",
+      "environment": "production",
+      "status": "running",
+      "duration": 128,
+      "revision": "a000030",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-049",
+      "service": "notifications",
+      "environment": "staging",
+      "status": "failed",
+      "duration": 145,
+      "revision": "a000031",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-050",
+      "service": "payments",
+      "environment": "preview",
+      "status": "healthy",
+      "duration": 162,
+      "revision": "a000032",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-051",
+      "service": "gateway",
+      "environment": "production",
+      "status": "healthy",
+      "duration": 179,
+      "revision": "a000033",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-052",
+      "service": "identity",
+      "environment": "staging",
+      "status": "healthy",
+      "duration": 196,
+      "revision": "a000034",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-053",
+      "service": "search",
+      "environment": "preview",
+      "status": "running",
+      "duration": 213,
+      "revision": "a000035",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-054",
+      "service": "notifications",
+      "environment": "production",
+      "status": "failed",
+      "duration": 230,
+      "revision": "a000036",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-055",
+      "service": "payments",
+      "environment": "staging",
+      "status": "healthy",
+      "duration": 247,
+      "revision": "a000037",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-056",
+      "service": "gateway",
+      "environment": "preview",
+      "status": "healthy",
+      "duration": 264,
+      "revision": "a000038",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-057",
+      "service": "identity",
+      "environment": "production",
+      "status": "healthy",
+      "duration": 41,
+      "revision": "a000039",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-058",
+      "service": "search",
+      "environment": "staging",
+      "status": "running",
+      "duration": 58,
+      "revision": "a00003a",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-059",
+      "service": "notifications",
+      "environment": "preview",
+      "status": "failed",
+      "duration": 75,
+      "revision": "a00003b",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-060",
+      "service": "payments",
+      "environment": "production",
+      "status": "healthy",
+      "duration": 92,
+      "revision": "a00003c",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-061",
+      "service": "gateway",
+      "environment": "staging",
+      "status": "healthy",
+      "duration": 109,
+      "revision": "a00003d",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-062",
+      "service": "identity",
+      "environment": "preview",
+      "status": "healthy",
+      "duration": 126,
+      "revision": "a00003e",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-063",
+      "service": "search",
+      "environment": "production",
+      "status": "running",
+      "duration": 143,
+      "revision": "a00003f",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-064",
+      "service": "notifications",
+      "environment": "staging",
+      "status": "failed",
+      "duration": 160,
+      "revision": "a000040",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-065",
+      "service": "payments",
+      "environment": "preview",
+      "status": "healthy",
+      "duration": 177,
+      "revision": "a000041",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-066",
+      "service": "gateway",
+      "environment": "production",
+      "status": "healthy",
+      "duration": 194,
+      "revision": "a000042",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-067",
+      "service": "identity",
+      "environment": "staging",
+      "status": "healthy",
+      "duration": 211,
+      "revision": "a000043",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-068",
+      "service": "search",
+      "environment": "preview",
+      "status": "running",
+      "duration": 228,
+      "revision": "a000044",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-069",
+      "service": "notifications",
+      "environment": "production",
+      "status": "failed",
+      "duration": 245,
+      "revision": "a000045",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-070",
+      "service": "payments",
+      "environment": "staging",
+      "status": "healthy",
+      "duration": 262,
+      "revision": "a000046",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-071",
+      "service": "gateway",
+      "environment": "preview",
+      "status": "healthy",
+      "duration": 39,
+      "revision": "a000047",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-072",
+      "service": "identity",
+      "environment": "production",
+      "status": "healthy",
+      "duration": 56,
+      "revision": "a000048",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-073",
+      "service": "search",
+      "environment": "staging",
+      "status": "running",
+      "duration": 73,
+      "revision": "a000049",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-074",
+      "service": "notifications",
+      "environment": "preview",
+      "status": "failed",
+      "duration": 90,
+      "revision": "a00004a",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-075",
+      "service": "payments",
+      "environment": "production",
+      "status": "healthy",
+      "duration": 107,
+      "revision": "a00004b",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-076",
+      "service": "gateway",
+      "environment": "staging",
+      "status": "healthy",
+      "duration": 124,
+      "revision": "a00004c",
+      "owner": "Maya"
+    },
+    {
+      "id": "dpl-077",
+      "service": "identity",
+      "environment": "preview",
+      "status": "healthy",
+      "duration": 141,
+      "revision": "a00004d",
+      "owner": "Ari"
+    },
+    {
+      "id": "dpl-078",
+      "service": "search",
+      "environment": "production",
+      "status": "running",
+      "duration": 158,
+      "revision": "a00004e",
+      "owner": "Sam"
+    },
+    {
+      "id": "dpl-079",
+      "service": "notifications",
+      "environment": "staging",
+      "status": "failed",
+      "duration": 175,
+      "revision": "a00004f",
+      "owner": "Jo"
+    },
+    {
+      "id": "dpl-080",
+      "service": "payments",
+      "environment": "preview",
+      "status": "healthy",
+      "duration": 192,
+      "revision": "a000050",
+      "owner": "Maya"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "inc-001",
+      "title": "Queue delivery delay",
+      "severity": "SEV3",
+      "status": "monitoring",
+      "owner": "Ari"
+    },
+    {
+      "id": "inc-002",
+      "title": "Identity errors",
+      "severity": "SEV1",
+      "status": "investigating",
+      "owner": "Sam"
+    },
+    {
+      "id": "inc-003",
+      "title": "Search indexing lag",
+      "severity": "SEV2",
+      "status": "resolved",
+      "owner": "Maya"
+    },
+    {
+      "id": "inc-004",
+      "title": "Elevated gateway latency",
+      "severity": "SEV3",
+      "status": "monitoring",
+      "owner": "Ari"
+    },
+    {
+      "id": "inc-005",
+      "title": "Queue delivery delay",
+      "severity": "SEV1",
+      "status": "investigating",
+      "owner": "Sam"
+    },
+    {
+      "id": "inc-006",
+      "title": "Identity errors",
+      "severity": "SEV2",
+      "status": "resolved",
+      "owner": "Maya"
+    },
+    {
+      "id": "inc-007",
+      "title": "Search indexing lag",
+      "severity": "SEV3",
+      "status": "monitoring",
+      "owner": "Ari"
+    },
+    {
+      "id": "inc-008",
+      "title": "Elevated gateway latency",
+      "severity": "SEV1",
+      "status": "investigating",
+      "owner": "Sam"
+    },
+    {
+      "id": "inc-009",
+      "title": "Queue delivery delay",
+      "severity": "SEV2",
+      "status": "resolved",
+      "owner": "Maya"
+    },
+    {
+      "id": "inc-010",
+      "title": "Identity errors",
+      "severity": "SEV3",
+      "status": "monitoring",
+      "owner": "Ari"
+    },
+    {
+      "id": "inc-011",
+      "title": "Search indexing lag",
+      "severity": "SEV1",
+      "status": "investigating",
+      "owner": "Sam"
+    },
+    {
+      "id": "inc-012",
+      "title": "Elevated gateway latency",
+      "severity": "SEV2",
+      "status": "resolved",
+      "owner": "Maya"
+    }
+  ],
+  "series": [
+    {
+      "hour": 0,
+      "requests": 1200,
+      "latency": 75
+    },
+    {
+      "hour": 1,
+      "requests": 1373,
+      "latency": 104
+    },
+    {
+      "hour": 2,
+      "requests": 1546,
+      "latency": 133
+    },
+    {
+      "hour": 3,
+      "requests": 1719,
+      "latency": 162
+    },
+    {
+      "hour": 4,
+      "requests": 1892,
+      "latency": 96
+    },
+    {
+      "hour": 5,
+      "requests": 2065,
+      "latency": 125
+    },
+    {
+      "hour": 6,
+      "requests": 1338,
+      "latency": 154
+    },
+    {
+      "hour": 7,
+      "requests": 1511,
+      "latency": 88
+    },
+    {
+      "hour": 8,
+      "requests": 1684,
+      "latency": 117
+    },
+    {
+      "hour": 9,
+      "requests": 1857,
+      "latency": 146
+    },
+    {
+      "hour": 10,
+      "requests": 2030,
+      "latency": 80
+    },
+    {
+      "hour": 11,
+      "requests": 1303,
+      "latency": 109
+    },
+    {
+      "hour": 12,
+      "requests": 1476,
+      "latency": 138
+    },
+    {
+      "hour": 13,
+      "requests": 1649,
+      "latency": 167
+    },
+    {
+      "hour": 14,
+      "requests": 1822,
+      "latency": 101
+    },
+    {
+      "hour": 15,
+      "requests": 1995,
+      "latency": 130
+    },
+    {
+      "hour": 16,
+      "requests": 1268,
+      "latency": 159
+    },
+    {
+      "hour": 17,
+      "requests": 1441,
+      "latency": 93
+    },
+    {
+      "hour": 18,
+      "requests": 1614,
+      "latency": 122
+    },
+    {
+      "hour": 19,
+      "requests": 1787,
+      "latency": 151
+    },
+    {
+      "hour": 20,
+      "requests": 1960,
+      "latency": 85
+    },
+    {
+      "hour": 21,
+      "requests": 1233,
+      "latency": 114
+    },
+    {
+      "hour": 22,
+      "requests": 1406,
+      "latency": 143
+    },
+    {
+      "hour": 23,
+      "requests": 1579,
+      "latency": 77
+    }
+  ]
+}

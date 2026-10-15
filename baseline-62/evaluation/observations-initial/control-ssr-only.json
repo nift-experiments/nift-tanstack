@@ -1,0 +1,21 @@
+{
+  "scenario": "control-ssr-only",
+  "command": [
+    "bun",
+    "run",
+    "build:control:ssr"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 1.8505821358412504,
+  "maximumIndividualProcessKiB_time": 420472,
+  "sampledTreePeakMiB": 419.03515625,
+  "dominantAtTreePeak": [
+    2927136,
+    429580288,
+    "node"
+  ],
+  "sampledIndividualPeakMiB": 409.6796875,
+  "sampleCount": 46,
+  "targetIntervalMs": 20,
+  "maximumObservedIntervalMs": 57.941638166084886
+}

@@ -1,0 +1,11 @@
+node_modules/
+**/node_modules/
+**/dist/
+.cache/
+.generated/
+**/routeTree.gen.ts
+**/.nift/public/
+**/.nift/identity-*/
+**/.nift/.lock
+corpus/generated/
+evaluation/work/

@@ -1,0 +1,22 @@
+{
+  "scenario": "control-unchanged",
+  "command": [
+    "bun",
+    "run",
+    "build:control"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 1.8674932548310608,
+  "maximumIndividualProcessKiB_time": 427972,
+  "sampledTreePeakMiB": 427.44921875,
+  "dominantAtTreePeak": [
+    2927660,
+    438243328,
+    "node"
+  ],
+  "sampledIndividualPeakMiB": 417.94140625,
+  "sampleCount": 638,
+  "targetIntervalMs": 2,
+  "samplingMethod": "all-thread-kernel-descendants-v2",
+  "maximumObservedIntervalMs": 6.540703121572733
+}

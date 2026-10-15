@@ -1,0 +1,21 @@
+{
+  "scenario": "control-component-edit",
+  "command": [
+    "bun",
+    "run",
+    "build:control"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 2.0420165359973907,
+  "maximumIndividualProcessKiB_time": 456636,
+  "sampledTreePeakMiB": 455.12109375,
+  "dominantAtTreePeak": [
+    2926922,
+    467267584,
+    "node"
+  ],
+  "sampledIndividualPeakMiB": 445.62109375,
+  "sampleCount": 56,
+  "targetIntervalMs": 20,
+  "maximumObservedIntervalMs": 49.22020295634866
+}

@@ -1,0 +1,21 @@
+{
+  "scenario": "control-warm-full",
+  "command": [
+    "bun",
+    "run",
+    "build:control"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 2.1538873659446836,
+  "maximumIndividualProcessKiB_time": 425800,
+  "sampledTreePeakMiB": 425.01171875,
+  "dominantAtTreePeak": [
+    2926134,
+    435855360,
+    "node"
+  ],
+  "sampledIndividualPeakMiB": 415.6640625,
+  "sampleCount": 57,
+  "targetIntervalMs": 20,
+  "maximumObservedIntervalMs": 56.7207548301667
+}

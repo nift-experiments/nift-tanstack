@@ -1,0 +1,39 @@
+$ bun tools/build.ts
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 212 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/client/assets/site-gE6mvrZy.css                    3.52 kB │ gzip:   1.38 kB
+dist/client/assets/app.services-CmToqd0o.js             0.07 kB │ gzip:   0.08 kB
+dist/client/assets/app.incidents-CZhqxekw.js            0.13 kB │ gzip:   0.13 kB
+dist/client/assets/app.index-DLIqRdC3.js                0.13 kB │ gzip:   0.13 kB
+dist/client/assets/app.settings-CoeO82y_.js             0.13 kB │ gzip:   0.13 kB
+dist/client/assets/app.deployments._id-BzG635RP.js      0.15 kB │ gzip:   0.14 kB
+dist/client/assets/app.deployments.index-6GDC0_ZR.js    0.17 kB │ gzip:   0.16 kB
+dist/client/assets/index-DOf9MOMi.js                  390.60 kB │ gzip: 123.81 kB
+
+✓ built in 408ms
+vite v8.3.4 building ssr environment for production...
+transforming...
+✓ 76 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/server/assets/start-5Z2QO8AU.js                        0.14 kB │ gzip:  0.13 kB
+dist/server/assets/app.services-BTQcsXrI.js                 0.19 kB │ gzip:  0.15 kB
+dist/server/assets/empty-plugin-adapters-D9UWiqvJ.js        0.22 kB │ gzip:  0.16 kB
+dist/server/assets/app.index-BvsIQ6Nu.js                    0.32 kB │ gzip:  0.22 kB
+dist/server/assets/app.settings-D-mG8dZn.js                 0.32 kB │ gzip:  0.22 kB
+dist/server/assets/app.incidents-DVhjDx-H.js                0.32 kB │ gzip:  0.22 kB
+dist/server/assets/app.deployments._id-io869LEZ.js          0.37 kB │ gzip:  0.25 kB
+dist/server/assets/app.deployments.index-BV98TdvK.js        0.41 kB │ gzip:  0.26 kB
+dist/server/assets/_tanstack-start-manifest_v-B5K1ZsLb.js   1.81 kB │ gzip:  0.48 kB
+dist/server/assets/router-D5RBD4Rp.js                       5.55 kB │ gzip:  1.63 kB
+dist/server/assets/Portal-Cx9bBsU6.js                      16.00 kB │ gzip:  4.15 kB
+dist/server/assets/data-BfSUq8aY.js                        17.84 kB │ gzip:  2.07 kB
+dist/server/server.js                                      99.52 kB │ gzip: 25.16 kB
+
+✓ built in 136ms
+✓ 63 tracked files are up to date
+time taken: 0.017662 seconds
+{"appBuildRan":true,"appSeconds":1.294324154,"niftSeconds":0.019617524000000004,"totalSeconds":1.3200331699999999}

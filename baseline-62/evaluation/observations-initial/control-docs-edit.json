@@ -1,0 +1,21 @@
+{
+  "scenario": "control-docs-edit",
+  "command": [
+    "bun",
+    "run",
+    "build:control"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 2.114025945076719,
+  "maximumIndividualProcessKiB_time": 438092,
+  "sampledTreePeakMiB": 436.70703125,
+  "dominantAtTreePeak": [
+    2926288,
+    447950848,
+    "node"
+  ],
+  "sampledIndividualPeakMiB": 427.19921875,
+  "sampleCount": 56,
+  "targetIntervalMs": 20,
+  "maximumObservedIntervalMs": 54.118728963658214
+}

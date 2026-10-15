@@ -1,0 +1,21 @@
+{
+  "scenario": "control-fresh",
+  "command": [
+    "bun",
+    "run",
+    "build:control"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 1.8936482311692089,
+  "maximumIndividualProcessKiB_time": 446964,
+  "sampledTreePeakMiB": 445.67578125,
+  "dominantAtTreePeak": [
+    2926074,
+    457363456,
+    "node"
+  ],
+  "sampledIndividualPeakMiB": 436.17578125,
+  "sampleCount": 54,
+  "targetIntervalMs": 20,
+  "maximumObservedIntervalMs": 42.373711010441184
+}

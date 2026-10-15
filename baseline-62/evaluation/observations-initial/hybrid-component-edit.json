@@ -1,0 +1,21 @@
+{
+  "scenario": "hybrid-component-edit",
+  "command": [
+    "bun",
+    "run",
+    "build"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 1.633401257218793,
+  "maximumIndividualProcessKiB_time": 420860,
+  "sampledTreePeakMiB": 454.47265625,
+  "dominantAtTreePeak": [
+    2926827,
+    429158400,
+    "node"
+  ],
+  "sampledIndividualPeakMiB": 409.27734375,
+  "sampleCount": 45,
+  "targetIntervalMs": 20,
+  "maximumObservedIntervalMs": 53.03964694030583
+}
