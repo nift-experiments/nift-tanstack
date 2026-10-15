@@ -1,0 +1,24 @@
+{
+  "scenario": "1500-hybrid-fresh",
+  "command": [
+    "bun",
+    "tools/build.ts",
+    "hybrid",
+    "--fresh"
+  ],
+  "exitCode": 1,
+  "wallSeconds": 2.3304160500410944,
+  "maximumIndividualProcessKiB_time": 123736,
+  "sampledTreePeakMiB": 274.23828125,
+  "dominantAtTreePeak": [
+    2958835,
+    126672896,
+    "bun"
+  ],
+  "dominantCommandAtTreePeak": "bun tools/compiler-worker.ts .cache/hybrid/compile-192.json ",
+  "sampledIndividualPeakMiB": 120.8359375,
+  "sampleCount": 687,
+  "targetIntervalMs": 2,
+  "samplingMethod": "all-thread-kernel-descendants-v2",
+  "maximumObservedIntervalMs": 5.455007078126073
+}

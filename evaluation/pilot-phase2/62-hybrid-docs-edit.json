@@ -1,0 +1,43 @@
+{
+  "scenario": "62-hybrid-docs-edit",
+  "command": [
+    "bun",
+    "tools/build.ts",
+    "hybrid"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 0.29320241208188236,
+  "maximumIndividualProcessKiB_time": 67840,
+  "sampledTreePeakMiB": 97.43359375,
+  "dominantAtTreePeak": [
+    2957042,
+    69111808,
+    "bun"
+  ],
+  "dominantCommandAtTreePeak": "bun tools/compiler-worker.ts .cache/hybrid/compile-0.json ",
+  "sampledIndividualPeakMiB": 65.91015625,
+  "sampleCount": 116,
+  "targetIntervalMs": 2,
+  "samplingMethod": "all-thread-kernel-descendants-v2",
+  "maximumObservedIntervalMs": 3.422265872359276,
+  "pipeline": {
+    "model": "hybrid",
+    "scale": 62,
+    "fresh": false,
+    "all": false,
+    "native": false,
+    "compiled": 1,
+    "appRan": false,
+    "searchRan": true,
+    "rendered": 1,
+    "times": {
+      "plan": 0.015061610999999999,
+      "compile": 0.092705073,
+      "nift": 0.01114840799999999,
+      "app": 3.1010000000151196e-06,
+      "search": 0.026799954999999983,
+      "render": 0.10393105600000001
+    },
+    "totalSeconds": 0.276824326
+  }
+}

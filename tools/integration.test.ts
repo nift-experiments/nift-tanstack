@@ -66,6 +66,21 @@ test("content hash invalidation, literal source preservation, failure recovery a
         "Failure recovery " + model,
       );
     }
+    for (const model of ["hybrid", "control"]) {
+      const target = `${model}/dist/client/search-index.json`;
+      const key = `.cache/${model}/search-key`;
+      const before = await readFile(key, "utf8");
+      const searchMarker = "searchretryproof" + model;
+      await writeFile(file, source + "\n" + searchMarker + "\n");
+      await chmod(target, 0o444);
+      let failed = false;
+      try { await build(model); } catch { failed = true; }
+      finally { await chmod(target, 0o644); }
+      expect(failed).toBe(true);
+      expect(await readFile(key, "utf8")).toBe(before);
+      await build(model);
+      expect(await readFile(target, "utf8")).toContain(searchMarker);
+    }
   } finally {
     await writeFile(file, source);
     await utimes(file, metadata.atime, metadata.mtime);

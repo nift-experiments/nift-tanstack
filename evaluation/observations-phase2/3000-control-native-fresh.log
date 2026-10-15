@@ -1,0 +1,1 @@
+{"model":"control","scale":3000,"fresh":true,"all":false,"native":true,"compiled":3000,"appRan":true,"searchRan":true,"rendered":3002,"times":{"plan":0.074470633,"compile":13.881468263,"nift":0.0000022360000002663583,"app":11.985491082000001,"search":0.7944889570000014,"render":0.007131503000000521},"totalSeconds":26.914801224999998}

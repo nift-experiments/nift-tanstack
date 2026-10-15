@@ -1,0 +1,4 @@
+affected files: start/workspace-setup, start/first-deployment, start/environments, start/team-onboarding, start/cli-installation  +2995 more
+📦 3000 files rebuilt successfully
+time taken: 0.655732 seconds
+{"model":"hybrid","scale":3000,"fresh":true,"all":false,"native":false,"compiled":3000,"appRan":true,"searchRan":true,"rendered":3002,"times":{"plan":1.01160634,"compile":14.339325171,"nift":0.6591826569999993,"app":1.6950563440000024,"search":0.8177239850000005,"render":6.463703252999999},"totalSeconds":25.176545237000003}

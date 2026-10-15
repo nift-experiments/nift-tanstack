@@ -132,7 +132,7 @@ await Promise.all(
 times.compile = (performance.now() - compileStart) / 1000;
 const niftStart = performance.now();
 if (model === "hybrid") {
-  const output = await run(["nift", "build", ...(all ? ["--all"] : [])], {
+  const output = await run(["nift", "build"], {
     quiet: true,
   });
   console.log(output.trim().split("\n").slice(-3).join("\n"));
@@ -245,7 +245,6 @@ if (
   const job = `${cache}/search-job.json`;
   await changed(job, JSON.stringify({ docs, payload, output: cachedSearch }));
   await run(["bun", "tools/search-indexer.ts", job], { quiet: true });
-  await changed(`${cache}/search-key`, searchKey);
   searchRan = true;
 }
 if (
@@ -255,6 +254,8 @@ if (
   await mkdir(`${dist}/client`, { recursive: true });
   await copyFile(cachedSearch, `${dist}/client/search-index.json`);
 }
+// Commit only after the served artifact has been copied successfully.
+await changed(`${cache}/search-key`, searchKey);
 times.search = (performance.now() - searchStart) / 1000;
 if (flags.has("--content-only")) {
   console.log(

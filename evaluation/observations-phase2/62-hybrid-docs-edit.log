@@ -1,0 +1,4 @@
+    ↳ dependency changed: corpus/original/start/workspace-setup.md
+📦 1 file rebuilt successfully
+time taken: 0.017144 seconds
+{"model":"hybrid","scale":62,"fresh":false,"all":false,"native":false,"compiled":1,"appRan":false,"searchRan":true,"rendered":1,"times":{"plan":0.021601681999999997,"compile":0.10206096200000002,"nift":0.020169493999999986,"app":0.0000036059999999906723,"search":0.032649609999999996,"render":0.094768509},"totalSeconds":0.306421583}

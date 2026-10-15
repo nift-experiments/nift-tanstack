@@ -1,0 +1,22 @@
+# Phase 2 improvement proposals — no core changes made
+
+The original proposals remain under baseline-62. Phase 2 removes duplicate shells but narrows Nift's distinctive role: native dependency selection and JSON publication. Shared MDX compilation, bounded rendering, external payloads and stage caches also work in the non-Nift control. Proposals below address observed integration cost, not a demonstrated Nift core ceiling.
+
+| Priority | Issue and concrete reproduction | Suggested change | Core needed? |
+|---|---|---|---|
+| P1 | Reusable content-stage adapter. Starting from normal init, this project still supplies a coordinator, MDX pool, content store and publication keys. Read the shared build/worker code and compare native/control planner branches. | A maintained small reference/plugin exposing standard Start routes, external compiled payloads, declared compiler/render/search stages and output packaging. Do not ship a second HTML shell. | No initially; adapter/docs before core abstraction. |
+| P1 | Duplicate planning/hash work. Hybrid computes common content keys and also asks native status/build to traverse dependencies. Compare plan/Nift costs in the scale matrix, particularly no-op and single-doc cases. | Investigate a stable structured plan API that can expose dirty records and reusable version tokens to an external bounded compiler without reading internal receipt files. Current `status().stringify()` already provides machine-readable names; do not claim this API is absent. | Potentially for version tokens; first profile and prototype adapter use. |
+| P1 | Stage transaction/recovery ownership. Before correction, committing content keys early could leave stale runtime payloads after a failed copy. Run the protected-destination integration test. | Document stage-success manifests, dependency key commit points, output validation and retry behavior. A supported integration should test failures between compilation, native publication, runtime copy, index and SSR. | No for recipe/tests; generic core transactions only if broader evidence warrants them. |
+| P1 | Shared invalidation boundaries. Shared app/MDX UI/style changes republish the full docs corpus under the current conservative app key. Inspect production-scale component timings and rendered counts. | Investigate route/asset-aware publication keys and smaller feature modules without sacrificing Start hydration manifest correctness. Whole-index regeneration after a doc change is another common-tooling target. Apply improvements to both models. | Generally no; application/adapter work. |
+| P2 | Native data-publication ergonomics/discoverability. Initial setup assumed a nonexistent raw-input form and JSON helper. Tracked JSON injection and native status scripting work, but required source/doc discovery. | Add current examples for `@dep`, `inject(...).stringify()`, `status().stringify()`, project-root boundaries and hash-mode tradeoffs. Explain framework-owned URLs versus Nift-authored path references. | No. |
+| P2 | Dev watcher lifecycle. Initial relative corpus watch roots resolved from the wrong cwd; config restarts need pending-work drain and current-content refresh. | Tested Vite adapter using absolute project-local watch roots, add/change/unlink, compiler/config dependencies, serialized async jobs, restart cleanup and visible error recovery. | No. |
+| P2 | Source/corpus ownership. Generated reference files can be edited diagnostically but regenerated; sustained authoring belongs in additions or generator sources. | Scaffold explicit source map, generated ignores, additions workflow and provenance. Avoid making thousands of generated files look authoritative. | No. |
+
+## Separate common-tooling targets
+
+- Per-document/index-segment search updates could reduce the roughly corpus-sized indexing step after a one-page edit.
+- A long-lived bounded worker pool may reduce repeated compiler/renderer startup, but must be evaluated for memory growth; current process batches deliberately bound retention.
+- Per-route asset/publication tracking could reduce app-only fan-out. The present conservative global key is correct but broad.
+- Trusted runtime MDX evaluation is an explicit CSP/authoring limitation shared by both models. A prebuilt-module or interpreted-content alternative would change the compiler/runtime contract and must be compared fairly.
+
+Do not attribute these to Nift core without a reproducer. Keep the original and larger findings visible, and do not modify core as part of this experiment.

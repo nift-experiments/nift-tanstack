@@ -1,0 +1,43 @@
+{
+  "scenario": "3000-hybrid-app-component",
+  "command": [
+    "bun",
+    "tools/build.ts",
+    "hybrid"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 8.951458784984425,
+  "maximumIndividualProcessKiB_time": 347028,
+  "sampledTreePeakMiB": 386.8359375,
+  "dominantAtTreePeak": [
+    2981868,
+    355164160,
+    "node"
+  ],
+  "dominantCommandAtTreePeak": "node $REPO_ROOT/node_modules/.bin/vite build --config app/vite.config.ts ",
+  "sampledIndividualPeakMiB": 338.7109375,
+  "sampleCount": 2826,
+  "targetIntervalMs": 2,
+  "samplingMethod": "all-thread-kernel-descendants-v2",
+  "maximumObservedIntervalMs": 6.185266189277172,
+  "pipeline": {
+    "model": "hybrid",
+    "scale": 3000,
+    "fresh": false,
+    "all": false,
+    "native": false,
+    "compiled": 0,
+    "appRan": true,
+    "searchRan": false,
+    "rendered": 3002,
+    "times": {
+      "plan": 0.541545716,
+      "compile": 0.00023371399999996356,
+      "nift": 0.23914399700000002,
+      "app": 1.813708835,
+      "search": 0.0029299370000003366,
+      "render": 6.293450515000001
+    },
+    "totalSeconds": 8.928115175
+  }
+}

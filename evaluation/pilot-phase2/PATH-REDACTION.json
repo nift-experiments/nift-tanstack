@@ -1,0 +1,5 @@
+{
+  "file": "evaluation/pilot-phase2/1500-hybrid-fresh.log",
+  "originalSha256": "af486cca2dade2d60aa78d7720ae34a59daad900f3289af66ce5fb5407e49c2b",
+  "change": "Public copy replaces absolute repository path with $REPO_ROOT; measurements/error text otherwise unchanged."
+}

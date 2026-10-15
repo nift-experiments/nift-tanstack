@@ -62,6 +62,14 @@ Nift-managed recipe paths stay within the shared repository root. Framework link
 
 ## Evidence and policy
 
-Original evidence: `evaluation/BASELINE-62-PAGES.md` and `baseline-62/evaluation/`. Phase 2 implementation notes and independent review snapshots live in `evaluation/`. Final measurements and verdict will distinguish optimized control, native reference, fresh/full workloads and generic caching.
+Original evidence: `evaluation/BASELINE-62-PAGES.md` and `baseline-62/evaluation/`. Phase 2 implementation notes and independent review snapshots live in `evaluation/`. **Final result: prefer the optimized TanStack-only control for this project.** The integrated single-Router architecture works at 3,000 documents, but no Nift-specific adoption threshold was established.
+
+- [Measurements and component costs](evaluation/BENCHMARKS.md)
+- [Architecture](evaluation/ARCHITECTURE.md)
+- [DX scores](evaluation/DX-REVIEW.md) and [AI-DX](evaluation/AI-DX-REVIEW.md)
+- [Final recommendation](evaluation/FINAL-VERDICT.md)
+- [Future Nift integration proposals](evaluation/NIFT-IMPROVEMENTS.md)
+
+At 3,000 documents, fresh builds were 25.20s hybrid versus 23.12s control; warm full publication 8.59s versus 7.30s; a docs edit 1.76s versus 1.12s. These are single observations, not medians. See the report for RSS, all scales, workload definitions and limitations.
 
 Commits/pushes to this repository are authorized. No Labs page, public deployment, social announcement or maintainer outreach is authorized. Nift core, Agora and prior experiments remain untouched. See the final report before drawing conclusions from a checkpoint.

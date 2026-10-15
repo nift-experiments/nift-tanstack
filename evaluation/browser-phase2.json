@@ -2,13 +2,13 @@
   {
     "model": "hybrid",
     "tab": "Stop new work, restore the last healthy release and verify dependencies.",
-    "calculator": "251 requests/min · 15060 requests/hour",
+    "calculator": "251 requests/min \u00b7 15060 requests/hour",
     "noteAcrossDocsToApp": "Router continuity proof"
   },
   {
     "model": "control",
     "tab": "Stop new work, restore the last healthy release and verify dependencies.",
-    "calculator": "251 requests/min · 15060 requests/hour",
+    "calculator": "251 requests/min \u00b7 15060 requests/hour",
     "noteAcrossDocsToApp": "Router continuity proof"
   },
   {
@@ -26,5 +26,19 @@
     "noteAcrossAppToDocs": "Router continuity proof",
     "searchResult": true,
     "warnings": []
+  },
+  {
+    "scale": 3000,
+    "finalSmoke": {
+      "hybrid": [
+        "MDX tabs and slider",
+        "in-memory session note retained docs \u2192 capacity \u2192 docs"
+      ],
+      "control": [
+        "3000-document index visible",
+        "recovery evidence search returns maintained checklist"
+      ]
+    },
+    "screenshot": "screenshots/phase2-integrated.png"
   }
 ]

@@ -1,0 +1,44 @@
+{
+  "scenario": "62-hybrid-warm-full",
+  "command": [
+    "bun",
+    "tools/build.ts",
+    "hybrid",
+    "--all"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 0.40190200111828744,
+  "maximumIndividualProcessKiB_time": 99804,
+  "sampledTreePeakMiB": 130.21484375,
+  "dominantAtTreePeak": [
+    2986162,
+    102199296,
+    "bun"
+  ],
+  "dominantCommandAtTreePeak": "bun tools/render-worker.ts .cache/hybrid/render-0.json ",
+  "sampledIndividualPeakMiB": 97.46484375,
+  "sampleCount": 159,
+  "targetIntervalMs": 2,
+  "samplingMethod": "all-thread-kernel-descendants-v2",
+  "maximumObservedIntervalMs": 3.040085081011057,
+  "pipeline": {
+    "model": "hybrid",
+    "scale": 62,
+    "fresh": false,
+    "all": true,
+    "native": false,
+    "compiled": 0,
+    "appRan": false,
+    "searchRan": true,
+    "rendered": 64,
+    "times": {
+      "plan": 0.015256882000000001,
+      "compile": 0.00016159800000000146,
+      "nift": 0.030596610000000003,
+      "app": 4.772000000002663e-06,
+      "search": 0.032107878,
+      "render": 0.266239514
+    },
+    "totalSeconds": 0.383987568
+  }
+}

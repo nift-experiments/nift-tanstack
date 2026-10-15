@@ -1,0 +1,63 @@
+35 |     : Promise.resolve("");
+36 |   const stderr = options.quiet
+37 |     ? new Response(p.stderr).text()
+38 |     : Promise.resolve("");
+39 |   const [code, out, err] = await Promise.all([p.exited, stdout, stderr]);
+40 |   if (code) throw Error(command.join(" ") + " failed\n" + out + err);
+                       ^
+error: bun tools/compiler-worker.ts .cache/hybrid/compile-480.json failed
+1 | /**
+2 |  * @typedef {import('micromark-util-events-to-acorn').Acorn} Acorn
+3 |  * @typedef {import('micromark-util-events-to-acorn').AcornOptions} AcornOptions
+           ^
+3:8: Could not parse import/exports with acorn
+ ancestors: undefined,
+     fatal: undefined,
+      file: "",
+     place: {
+  line: 3,
+  column: 8,
+  offset: 31,
+},
+    reason: "Could not parse import/exports with acorn",
+    ruleId: "acorn",
+    source: "micromark-extension-mdxjs-esm",
+    actual: undefined,
+  expected: undefined,
+      note: undefined,
+       url: "https://github.com/micromark/micromark-extension-mdxjs-esm#could-not-parse-importexports-with-acorn",
+
+      at $REPO_ROOT/node_modules/micromark-extension-mdxjs-esm/lib/syntax.js:3:8
+
+3830 |   var loc = getLineInfo(this.input, pos);
+3831 |   message += " (" + loc.line + ":" + loc.column + ")";
+3832 |   if (this.sourceFile) {
+3833 |     message += " in " + this.sourceFile;
+3834 |   }
+3835 |   var err = new SyntaxError(message);
+                       ^
+SyntaxError: Unexpected token
+      pos: 31,
+      loc: {
+  line: 3,
+  column: 7,
+},
+ raisedAt: 15,
+
+      at <anonymous> ($REPO_ROOT/node_modules/acorn/dist/acorn.mjs:3835:17)
+      at <anonymous> ($REPO_ROOT/node_modules/acorn/dist/acorn.mjs:833:8)
+      at <anonymous> ($REPO_ROOT/node_modules/acorn/dist/acorn.mjs:827:26)
+      at <anonymous> ($REPO_ROOT/node_modules/acorn/dist/acorn.mjs:1994:8)
+      at <anonymous> ($REPO_ROOT/node_modules/acorn/dist/acorn.mjs:1872:28)
+      at <anonymous> ($REPO_ROOT/node_modules/acorn/dist/acorn.mjs:890:21)
+      at <anonymous> ($REPO_ROOT/node_modules/acorn/dist/acorn.mjs:775:12)
+      at eventsToAcorn ($REPO_ROOT/node_modules/micromark-util-events-to-acorn/lib/index.js:60:128)
+      at atEnd ($REPO_ROOT/node_modules/micromark-extension-mdxjs-esm/lib/syntax.js:193:22)
+      at go ($REPO_ROOT/node_modules/micromark/lib/create-tokenizer.js:233:13)
+
+Bun v1.4.3 (Linux x64)
+
+      at run ($REPO_ROOT/tools/io.ts:40:19)
+      at async <anonymous> ($REPO_ROOT/tools/build.ts:128:13)
+
+Bun v1.4.3 (Linux x64)

@@ -1,0 +1,3 @@
+📦 500 files built successfully
+time taken: 0.10711 seconds
+{"model":"hybrid","scale":500,"fresh":false,"all":true,"native":false,"compiled":0,"appRan":false,"searchRan":true,"rendered":502,"times":{"plan":0.113582148,"compile":0.00015072899999999835,"nift":0.110157192,"app":0.000004150999999978921,"search":0.127702429,"render":0.995581964},"totalSeconds":1.383602958}

@@ -6,7 +6,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 const job = JSON.parse(await readFile(process.argv[2], "utf8"));
 for (const record of job.records) {
   const source = await readFile(record.file, "utf8");
-  const result = await compile(source, {
+  const result = await compile({value:source,path:record.file}, {
     format: record.format,
     outputFormat: "function-body",
     development: false,

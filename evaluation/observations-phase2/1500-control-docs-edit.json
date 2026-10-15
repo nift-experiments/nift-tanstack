@@ -1,0 +1,43 @@
+{
+  "scenario": "1500-control-docs-edit",
+  "command": [
+    "bun",
+    "tools/build.ts",
+    "control"
+  ],
+  "exitCode": 0,
+  "wallSeconds": 0.6982733029872179,
+  "maximumIndividualProcessKiB_time": 116652,
+  "sampledTreePeakMiB": 152.26171875,
+  "dominantAtTreePeak": [
+    2963988,
+    119169024,
+    "bun"
+  ],
+  "dominantCommandAtTreePeak": "bun tools/search-indexer.ts .cache/control/search-job.json ",
+  "sampledIndividualPeakMiB": 113.6484375,
+  "sampleCount": 264,
+  "targetIntervalMs": 2,
+  "samplingMethod": "all-thread-kernel-descendants-v2",
+  "maximumObservedIntervalMs": 4.371654009446502,
+  "pipeline": {
+    "model": "control",
+    "scale": 1500,
+    "fresh": false,
+    "all": false,
+    "native": false,
+    "compiled": 1,
+    "appRan": false,
+    "searchRan": true,
+    "rendered": 1,
+    "times": {
+      "plan": 0.035665123,
+      "compile": 0.113404283,
+      "nift": 1.8320000000073834e-06,
+      "app": 5.058000000019547e-06,
+      "search": 0.387787188,
+      "render": 0.11257674599999996
+    },
+    "totalSeconds": 0.680023549
+  }
+}

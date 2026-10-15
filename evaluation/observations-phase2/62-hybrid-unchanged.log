@@ -1,0 +1,3 @@
+✓ 62 tracked files are up to date
+time taken: 0.007979 seconds
+{"model":"hybrid","scale":62,"fresh":false,"all":false,"native":false,"compiled":0,"appRan":false,"searchRan":false,"rendered":0,"times":{"plan":0.016685734,"compile":0.00014010000000000034,"nift":0.010754856,"app":0.000004220999999986929,"search":0.00006159300000000201,"render":0.0007526060000000001},"totalSeconds":0.05459260999999999}

@@ -1,0 +1,16 @@
+{
+  "scale": 3000,
+  "command": "bun run test",
+  "passed": 1,
+  "failed": 0,
+  "assertions": 22,
+  "durationSeconds": 18.98,
+  "checks": [
+    "preserved-mtime edit",
+    "one-document compile/render without app build",
+    "equal model payloads",
+    "protected payload copy failure/retry",
+    "protected search copy failure/retry",
+    "literal @pulse/cli preserved"
+  ]
+}
